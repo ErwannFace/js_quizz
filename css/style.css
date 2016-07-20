@@ -1,36 +1,36 @@
+body {
+	background-image: url(../img/body.png);
+}
+	
 h1, h3 {
-	margin-top: 50px;
+	margin-top: 75px;
 	color: #0269C2;
 	padding: 0px !important;
 
 }
 
+h4 {
+	color: #0269C2;
+	margin-top: 75px;
+	transform: translateY(-50%);
+}
 
 section {
 	height: 50px;
 }
 
-article {
-	padding: 50px 0px 50px 0px;
-}
-
-p {
-	font-size: 2em;
-	color: #0269C2;
-	margin-top: 10vh;
-	transform: translateY(-25%);
-}
-
 .reponse {
  height: 150px;
  margin-top: 30px;
+ margin-bottom: 50px;
  border: 1px solid rgba(2, 105, 194, 0.4);
  border-radius: 5%;
- cursor: pointer;
+ background-color: white;
 }
 
 .reponse:hover {
 	background-color: rgba(2, 105, 194, 0.1);
+	cursor: pointer;
 }
 
 .separator {
@@ -38,3 +38,6 @@ p {
 	margin-top: 10px;
 }
 
+.display-article {
+	display: none;
+}
