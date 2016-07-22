@@ -1,0 +1,36 @@
+<!Doctype html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+		</head>
+		
+		<body>
+
+			<div class="question1">
+				<p>Question 1:</p>
+				<img src="che.png"/>
+				<p>Qui est cet homme?</p>
+				
+				<label for="motdepasse">Votre reponse : </label><input type="text" name="reponse" value="" id="motdepasse" onblur="verifReponse(this)"/>
+				
+				<button type="button" name="button" >Vérification</button>
+				<button type="button" name="button" id="next">Next</button>
+			</div>
+
+			<div class="question2">
+				<p>Question 2:</p>
+				<img src="che.png"/>
+				<p>Qui est cet homme?</p>
+
+				<label for="motdepasse">Votre reponse : </label><input type="text" name="reponse" value="" id="motdepasse" onblur="verifReponse(this)"/>
+
+				<button type="button" name="button" >Vérification</button>
+				<button type="button" name="button" id="next">Next</button>
+				<button type="button" name="button" id="pre">Previous</button>
+			</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="JS/Script.js"></script>
+	</body>
+</html>
