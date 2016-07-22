@@ -18,7 +18,9 @@ function verifReponse (champ) {
   }
   else {
     surligne(champ, true);
+    alert("T'ES NULL!!");
     return false;
+
   }
 }
 

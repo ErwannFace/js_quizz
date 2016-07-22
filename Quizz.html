@@ -3,6 +3,7 @@
 		<head>
 			<meta charset="utf-8">
 			<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+			<link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css">
 		</head>
 		
 		<body>
@@ -12,10 +13,15 @@
 				<img src="che.png"/>
 				<p>Qui est cet homme?</p>
 				
-				<label for="motdepasse">Votre reponse : </label><input type="text" name="reponse" value="" id="motdepasse" onblur="verifReponse(this)"/>
+				<div class="col-lg-5">
+					<label for="reponse">Votre reponse : </label>
+					<input type="text" class="form-control" id="" value="" onblur="verifReponse(this)"/>
+				</div>
 				
-				<button type="button" name="button" >Vérification</button>
-				<button type="button" name="button" id="next">Next</button>
+				<div class="col-lg-10">
+					<button type="button" name="button" >Vérification</button>
+					<button type="button" name="button" id="next">Next</button>
+				</div>
 			</div>
 
 			<div class="question2">
@@ -23,11 +29,16 @@
 				<img src="che.png"/>
 				<p>Qui est cet homme?</p>
 
-				<label for="motdepasse">Votre reponse : </label><input type="text" name="reponse" value="" id="motdepasse" onblur="verifReponse(this)"/>
+				<div class="col-lg-5">
+					<label>Votre reponse : </label>
+					<input type="text" value="" class="form-control" id="" onblur="verifReponse(this)"/>
+				</div>
 
-				<button type="button" name="button" >Vérification</button>
-				<button type="button" name="button" id="next">Next</button>
-				<button type="button" name="button" id="pre">Previous</button>
+				<div class="col-lg-10">
+					<button type="button" name="button" >Vérification</button>
+					<button type="button" name="button" id="next">Next</button>
+					<button type="button" name="button" id="pre">Previous</button>
+				</div>
 			</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
