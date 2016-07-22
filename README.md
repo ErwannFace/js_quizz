@@ -1,12 +1,12 @@
-#### Projet-1 {Qui-Quizz}
+### Projet-1 {Qui-Quizz}
 ===
-## Quizz realiser en: 
+#### Quizz realiser en: 
 + Javascript, 
 + Jquery, 
 + HTML/CSS
 
-Quizz sur les personnages historique qui ont marquer l'histoire du monde
-Par Youness le 26/08/2016
+Quizz sur les personnages historique qui ont marquer l'histoire du monde  
+Par Youness le 26/08/2016  
 
 > Que la force et internet soit avec moi
 
