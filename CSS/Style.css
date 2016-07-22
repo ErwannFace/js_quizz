@@ -5,3 +5,8 @@ img {
 .question2 {
 	display: none;
 }
+
+.question {
+	font-style: bold;
+	font-size: 30px;
+}
