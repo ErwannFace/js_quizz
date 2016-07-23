@@ -3,7 +3,7 @@ function surligne (champ, erreur) {
     champ.style.backgroundColor = "#FF6347";/*faux*/
   }
   else {
-    champ.style.backgroundColor = "#7CFC00";/*vrai*/
+    champ.style.backgroundColor = "#449D44";/*vrai*/
   }
 }
  
