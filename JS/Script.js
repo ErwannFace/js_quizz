@@ -71,3 +71,23 @@ $("#pre1").click(function(){
   $(".question3").hide();
   $(".question2").show();
 });
+
+$("#next2").click(function(){
+  $(".question4").show();
+  $(".question3").hide();
+});
+
+$("#pre2").click(function(){
+  $(".question4").hide();
+  $(".question3").show();
+});
+
+$("#next3").click(function(){
+  $(".question5").show();
+  $(".question4").hide();
+});
+
+$("#pre2").click(function(){
+  $(".question5").hide();
+  $(".question4").show();
+});
