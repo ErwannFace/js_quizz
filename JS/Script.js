@@ -24,6 +24,14 @@ function verifReponse (champ) {
    	surligne(champ, false);
     return true;
   }
+  else if (champ.value === "Mouammar Khadafi") {
+   	surligne(champ, false);
+    return true;
+  }
+  else if (champ.value === "Oussama Ben Laden") {
+   	surligne(champ, false);
+    return true;
+  }
   else {
     surligne(champ, true);
     alert("T'ES NULL!!");
