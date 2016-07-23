@@ -6,6 +6,6 @@ body{
 	border: solid #FFFC19;
 	background-color: white;
 }
-.next{
+#next{
 	float: right;
 }
