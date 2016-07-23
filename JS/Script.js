@@ -16,7 +16,7 @@ function verifReponse (champ) {
    	surligne(champ, false);
     return true;
   }
-  else if (champ.value === "2pac") {
+  else if (champ.value === "Tupac Shakur") {
    	surligne(champ, false);
     return true;
   }
@@ -29,6 +29,18 @@ function verifReponse (champ) {
     return true;
   }
   else if (champ.value === "Oussama Ben Laden") {
+   	surligne(champ, false);
+    return true;
+  }
+  else if (champ.value === "Yasser Arafat") {
+   	surligne(champ, false);
+    return true;
+  }
+  else if (champ.value === "Vladimir Poutine") {
+   	surligne(champ, false);
+    return true;
+  }
+  else if (champ.value === "Malcom X") {
    	surligne(champ, false);
     return true;
   }
@@ -48,4 +60,14 @@ $("#next").click(function(){
 $("#pre").click(function(){
   $(".question2").hide();
   $(".question1").show();
+});
+
+$("#next1").click(function(){
+  $(".question3").show();
+  $(".question2").hide();
+});
+
+$("#pre1").click(function(){
+  $(".question3").hide();
+  $(".question2").show();
 });

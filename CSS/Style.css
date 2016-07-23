@@ -2,7 +2,7 @@ img {
 	width: 280px;
 	height: 300px;
 }
-.question2 {
+.question2, .question3 {
 	display: none;
 }
 
