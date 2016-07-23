@@ -44,6 +44,10 @@ function verifReponse (champ) {
    	surligne(champ, false);
     return true;
   }
+  else if (champ.value === "LM3ALLEM") {
+   	surligne(champ, false);
+    return true;
+  }
   else {
     surligne(champ, true);
     alert("T'ES NULL!!");
@@ -100,4 +104,44 @@ $("#next4").click(function(){
 $("#pre4").click(function(){
   $(".question6").hide();
   $(".question5").show();
+});
+
+$("#next5").click(function(){
+  $(".question7").show();
+  $(".question6").hide();
+});
+
+$("#pre5").click(function(){
+  $(".question7").hide();
+  $(".question6").show();
+});
+
+$("#next6").click(function(){
+  $(".question8").show();
+  $(".question7").hide();
+});
+
+$("#pre6").click(function(){
+  $(".question8").hide();
+  $(".question7").show();
+});
+
+$("#next7").click(function(){
+  $(".question9").show();
+  $(".question8").hide();
+});
+
+$("#pre7").click(function(){
+  $(".question9").hide();
+  $(".question8").show();
+});
+
+$("#next8").click(function(){
+  $(".question10").show();
+  $(".question9").hide();
+});
+
+$("#pre8").click(function(){
+  $(".question10").hide();
+  $(".question9").show();
 });
