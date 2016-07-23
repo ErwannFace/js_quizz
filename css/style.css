@@ -1,10 +1,11 @@
 body{
-	background-color: gray;
+	background-color: #B21212;
 }
-
-
-/*
-
-
-
-*/
+.container{
+	margin-top: 45px;
+	border: solid #FFFC19;
+	background-color: white;
+}
+.next{
+	float: right;
+}
