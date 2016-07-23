@@ -1,9 +1,11 @@
 function surligne (champ, erreur) {
   if(erreur) {
-    champ.style.backgroundColor = "#FF6347";/*faux*/
+    champ.style.backgroundColor = "#C9302C";
+	champ.style.color = "white";	/*faux*/
   }
   else {
-    champ.style.backgroundColor = "#449D44";/*vrai*/
+    champ.style.backgroundColor = "#449D44";
+	champ.style.color = "white";	/*vrai*/
   }
 }
  
