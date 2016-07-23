@@ -87,7 +87,17 @@ $("#next3").click(function(){
   $(".question4").hide();
 });
 
-$("#pre2").click(function(){
+$("#pre3").click(function(){
   $(".question5").hide();
   $(".question4").show();
+});
+
+$("#next4").click(function(){
+  $(".question6").show();
+  $(".question5").hide();
+});
+
+$("#pre4").click(function(){
+  $(".question6").hide();
+  $(".question5").show();
 });
