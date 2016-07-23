@@ -12,7 +12,15 @@ function verifReponse (champ) {
     surligne(champ, false);
     return true;
   }
-  else if (champ.value === "Guevara") {
+  else if (champ.value === "Hugo Chavez") {
+   	surligne(champ, false);
+    return true;
+  }
+  else if (champ.value === "2pac") {
+   	surligne(champ, false);
+    return true;
+  }
+  else if (champ.value === "Amin Dada") {
    	surligne(champ, false);
     return true;
   }
