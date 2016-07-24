@@ -1,3 +1,8 @@
+
+/*************************************************
+*************Fonction pour les couleur*************
+**************************************************/
+
 function surligne (champ, erreur) {
   if(erreur) {
     champ.style.backgroundColor = "#C9302C";
@@ -8,6 +13,10 @@ function surligne (champ, erreur) {
 	champ.style.color = "white";	/*vrai*/
   }
 }
+ 
+ /*************************************************
+*******Fonction pour les reponse du Quizz**********
+**************************************************/
  
 function verifReponse (champ) {
   if(champ.value === "Ernesto che Guevara") {
@@ -57,6 +66,10 @@ function verifReponse (champ) {
 
   }
 }
+
+ /*****************************************************
+*******Fonction afficher/masquer les question**********
+******************************************************/
 
 $("#next").click(function(){
   $(".question2").show();
