@@ -12,164 +12,213 @@
 	<div class="container-fluid">
 		<h1>Java Script Quizz</h1>
 	
-		<div class="col-md-12 col-ms-12 col-xs-12">
+		<div id="question1" class="col-md-12 col-ms-12 col-xs-12">
 		<form>
 		    <label>Question1: Quelle ville est la capitale de la France?  </label>
-			<div class="">
-			    <input type="radio" name="radioName" />A <input type="text" name="anser" value="Paris" style= "background-color: white" id="répo1" />
-				<input type="radio" name="radioName"/>B <input type="text" name="anser" value="Madrid" style= "background-color: white" id="répo2" /><br>
+			<div >
+			    A <input type="text" class="anser" value="Paris" style= "background-color: white" id="anser1" />
+				B <input type="text" class="anser" value="Madrid" style= "background-color: white" id="anser2" /><br>
 			</div>
 			<div>
-				<input type="radio" name="radioName"/>C <input type="text" name="anser" value="Damas" style= "background-color: white" id="répo3" />
-				<input type="radio" name="radioName"/>D <input type="text" name="anser" value="Londres" style= "background-color: white" id="répo4" />
+				C <input type="text" class="anser" value="Damas" style= "background-color: white" id="anser3" />
+				D <input type="text" class="anser" value="Londres" style= "background-color: white" id="anser4" />
 			</div>
-				<button type="button" id="btnPrécédent" class="btn btn-success btn-sm">Précédente</button>
-				<button type="button"  id="btnSuivant" class="btn btn-success btn-sm">Suivante</button>
 		</form>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnPrecedent"> 
+					<button type="button" id="Precedent" class="btn btn-success btn-sm">Précédente</button>
+				</div>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnSuivant">
+					<button type="button" id="Suivant" class="btn btn-success btn-sm">Suivante</button>
+				</div>
+		
 		</div>
 
-		<div class="col-md-12 col-ms-12 col-xs-12">
+		<div id="question2" class="col-md-12 col-ms-12 col-xs-12" style="display: none;">
 		<form>
 		 <label>Question2: Quelle ville est la capitale de la Syrie? </label>
 			<div class="">
-			    <input type="radio" name="radioName" />A <input type="text" name="anser" value="Paris" style= "background-color: white" id="répo1" />
-				<input type="radio" name="radioName"/>B <input type="text" name="anser" value="Madrid" style= "background-color: white" id="répo2" /><br>
+				A <input type="text" name="anser" value="Paris" style= "background-color: white" id="répo1" />
+				B <input type="text" name="anser" value="Madrid" style= "background-color: white" id="répo2" /><br>
 			</div>
 			<div>
-				<input type="radio" name="radioName"/>C <input type="text" name="anser" value="Damas" style= "background-color: white" id="répo3" />
-				<input type="radio" name="radioName"/>D <input type="text" name="anser" value="Londres" style= "background-color: white" id="répo4" />
+				C <input type="text" name="anser" value="Damas" style= "background-color: white" id="répo3" />
+				D <input type="text" name="anser" value="Londres" style= "background-color: white" id="répo4" />
 			</div>
-				<button type="button" id="btnPrécédent" class="btn btn-success btn-sm">Précédente</button>
-				<button type="button"  id="btnSuivant" class="btn btn-success btn-sm">Suivante</button>
 		</form>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnPrecedent"> 
+					<button type="button" id="Precedent" class="btn btn-success btn-sm">Précédente</button>
+				</div>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnSuivant">
+					<button type="button" id="Suivant" class="btn btn-success btn-sm">Suivante</button>
+				</div>
+		
 		</div>
 
-		<div class="col-md-12 col-ms-12 col-xs-12"> 
+		<div id="question3" class="col-md-12 col-ms-12 col-xs-12" style="display: none;"> 
 		<form>
 		 <label>Question3: Quelle ville est la capitale de l'Espagne? </label>
 			<div class="">
-			    <input type="radio" name="radioName" />A <input type="text" name="anser" value="Paris" style= "background-color: white" id="répo1" />
-				<input type="radio" name="radioName"/>B <input type="text" name="anser" value="Madrid" style= "background-color: white" id="répo2" /><br>
+				A <input type="text" name="anser" value="Paris" style= "background-color: white" id="répo1" />
+				B <input type="text" name="anser" value="Madrid" style= "background-color: white" id="répo2" /><br>
 			</div>
 			<div>
-				<input type="radio" name="radioName"/>C <input type="text" name="anser" value="Damas" style= "background-color: white" id="répo3" />
-				<input type="radio" name="radioName"/>D <input type="text" name="anser" value="Londres" style= "background-color: white" id="répo4" />
+				C <input type="text" name="anser" value="Damas" style= "background-color: white" id="répo3" />
+				D <input type="text" name="anser" value="Londres" style= "background-color: white" id="répo4" />
 			</div>
-				<button type="button" id="btnPrécédent" class="btn btn-success btn-sm">Précédente</button>
-				<button type="button"  id="btnSuivant" class="btn btn-success btn-sm">Suivante</button>
 		</form>
+			<div class="col-md-6 col-ms-6 col-xs-6 btnPrecedent"> 
+				<button type="button" id="Precedent" class="btn btn-success btn-sm">Précédente</button>
+			</div>
+			<div class="col-md-6 col-ms-6 col-xs-6 btnSuivant">
+				<button type="button" id="Suivant" class="btn btn-success btn-sm">Suivante</button>
+			</div>
+		
 		</div> 
 		
-		<div class="col-md-12 col-ms-12 col-xs-12">
+		<div id="question4" class="col-md-12 col-ms-12 col-xs-12" style="display: none;">
 		<form>
 		 <label>Question4: Quelle ville est la capitale de la Grande-Bretagne? </label>
 			<div class="">
-			    <input type="radio" name="radioName" />A <input type="text" name="anser" value="Paris" style= "background-color: white" id="répo1" />
-				<input type="radio" name="radioName"/>B <input type="text" name="anser" value="Madrid" style= "background-color: white" id="répo2" /><br>
+			    A <input type="text" name="anser" value="Paris" style= "background-color: white" id="répo1" />
+				B <input type="text" name="anser" value="Madrid" style= "background-color: white" id="répo2" /><br>
 			</div>
 			<div>
-				<input type="radio" name="radioName"/>C <input type="text" name="anser" value="Damas" style= "background-color: white" id="répo3" />
-				<input type="radio" name="radioName"/>D <input type="text" name="anser" value="Londres" style= "background-color: white" id="répo4" />
+				C <input type="text" name="anser" value="Damas" style= "background-color: white" id="répo3" />
+				D <input type="text" name="anser" value="Londres" style= "background-color: white" id="répo4" />
 			</div>
-				<button type="button" id="btnPrécédent" class="btn btn-success btn-sm">Précédente</button>
-				<button type="button"  id="btnSuivant" class="btn btn-success btn-sm">Suivante</button>
 		</form>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnPrecedent"> 
+					<button type="button" id="Precedent" class="btn btn-success btn-sm">Précédente</button>
+				</div>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnSuivant">
+					<button type="button" id="Suivant" class="btn btn-success btn-sm">Suivante</button>
+				</div>
+		
 		</div>
 
-		<div class="col-md-12 col-ms-12 col-xs-12">
+		<div id="question5" class="col-md-12 col-ms-12 col-xs-12" style="display: none;">
 		<form>
 		 <label>Question5: </label>
 			<div class="">
-			    <input type="radio" name="radioName"/>A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
-				<input type="radio" name="radioName"/>B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
+			    A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
+				B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
 			</div>
 			<div>
-				<input type="radio" name="radioName"/>C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
-				<input type="radio" name="radioName"/>D <input type="text" name="anser" value="" style= "background-color: white" id="répo4" />
+				C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
+				D <input type="text" name="anser" value="" style= "background-color: white" id="répo4" />
 			</div>
-				<button type="button" id="btnPrécédent" class="btn btn-success btn-sm">Précédente</button>
-				<button type="button"  id="btnSuivant" class="btn btn-success btn-sm">Suivante</button>
 		</form>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnPrecedent"> 
+					<button type="button" id="Precedent" class="btn btn-success btn-sm">Précédente</button>
+				</div>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnSuivant">
+					<button type="button" id="Suivant" class="btn btn-success btn-sm">Suivante</button>
+				</div>
+		
 		</div>
 		
-		<div class="col-md-12 col-ms-12 col-xs-12">
+		<div id="question6" class="col-md-12 col-ms-12 col-xs-12" style="display: none;">
 		<form> 
 		 <label>Question6: </label>
 			<div class="">
-			    <input type="radio" name="radioName"/>A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
-				<input type="radio" name="radioName"/>B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
+			    A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
+				B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
 			</div>
 			<div>
-				<input type="radio" name="radioName"/>C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
-				<input type="radio" name="radioName"/>D <input type="text" name="anser" value="" style= "background-color: white" id="répo4" />
+				C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
+				D <input type="text" name="anser" value="" style= "background-color: white" id="répo4" />
 			</div>
-				<button type="button" id="btnPrécédent" class="btn btn-success btn-sm">Précédente</button>
-				<button type="button"  id="btnSuivant" class="btn btn-success btn-sm">Suivante</button>
 		</form>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnPrecedent"> 
+					<button type="button" id="Precedent" class="btn btn-success btn-sm">Précédente</button>
+				</div>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnSuivant">
+					<button type="button" id="Suivant" class="btn btn-success btn-sm">Suivante</button>
+				</div>
+		
 		</div>
 		
-		<div class="col-md-12 col-ms-12 col-xs-12">
+		<div id="question7" class="col-md-12 col-ms-12 col-xs-12" style="display: none;">
 		<form>  
 		 <label>Question7:  </label>
 			<div class="">
-			   <input type="radio" name="radioName"/> A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
-				<input type="radio" name="radioName"/>B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
+				A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
+				B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
 			</div>
 			<div>
-				<input type="radio" name="radioName"/>C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
-				<input type="radio" name="radioName"/>D <input type="text" name="anser" value="" style= "background-color: white" id="répo4" />
+				C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
+				D <input type="text" name="anser" value="" style= "background-color: white" id="répo4" />
 			</div>
-				<button type="button" id="btnPrécédent" class="btn btn-success btn-sm">Précédente</button>
-				<button type="button"  id="btnSuivant" class="btn btn-success btn-sm">Suivante</button>
 		</form>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnPrecedent"> 
+					<button type="button" id="Precedent" class="btn btn-success btn-sm">Précédente</button>
+				</div>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnSuivant">
+					<button type="button" id="Suivant" class="btn btn-success btn-sm">Suivante</button>
+				</div>
+		
 		</div>
 		
-		<div class="col-md-12 col-ms-12 col-xs-12">
+		<div id="question8" class="col-md-12 col-ms-12 col-xs-12" style="display: none;">
 		<form> 
 		 <label >Question8: </label>
 			<div class="">
-			    <input type="radio" name="radioName"/>A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
-				<input type="radio" name="radioName"/>B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
+			    A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
+				B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
 			</div>
 			<div>
-				<input type="radio" name="radioName"/>C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
+				C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
 				D <input type="text" name="anser" value="" style= "background-color: white" id="répo4" />
 			</div>
-				<button type="button" id="btnPrécédent" class="btn btn-success btn-sm">Précédente</button>
-				<button type="button"  id="btnSuivant" class="btn btn-success btn-sm">Suivante</button>
 		</form>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnPrecedent"> 
+					<button type="button" id="Precedent" class="btn btn-success btn-sm">Précédente</button>
+				</div>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnSuivant">
+					<button type="button" id="Suivant" class="btn btn-success btn-sm">Suivante</button>
+				</div>
+		
 		</div>
 
-		<div class="col-md-12 col-ms-12 col-xs-12">
+		<div id="question9" class="col-md-12 col-ms-12 col-xs-12" style="display: none;">
 		<form>
 		 <label>Question9: </label>
 			<div class="">
-			    <input type="radio" name="radioName"/>A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
-				<input type="radio" name="radioName"/>B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
+				A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
+				B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
 			</div>
 			<div>
-				<input type="radio" name="radioName"/>C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
-				<input type="radio" name="radioName"/>D <input type="text" name="anser" value="" style= "background-color: white" id="répo4" />
+				C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
+				D <input type="text" name="anser" value="" style= "background-color: white" id="répo4" />
 			</div>
-				<button type="button" id="btnPrécédent" class="btn btn-success btn-sm">Précédente</button>
-				<button type="button"  id="btnSuivant" class="btn btn-success btn-sm">Suivante</button>
 		</form>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnPrecedent"> 
+					<button type="button" id="Precedent" class="btn btn-success btn-sm">Précédente</button>
+				</div>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnSuivant">
+					<button type="button" id="Suivant" class="btn btn-success btn-sm">Suivante</button>
+				</div>
 		</div>
 
-		<div class="col-md-12 col-ms-12 col-xs-12">
+		<div id="question10" class="col-md-12 col-ms-12 col-xs-12" style="display: none;">
 		 <label>Question10:</label>
 		<form>
 			<div class="">
-			    <input type="radio" name="radioName"/>A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
-				<input type="radio" name="radioName"/>B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
+			    A <input type="text" name="anser" value="" style= "background-color: white" id="répo1" />
+				B <input type="text" name="anser" value="" style= "background-color: white" id="répo2" /><br>
 			</div>
 			<div>
-				<input type="radio" name="radioName"/>C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
-				<input type="radio" name="radioName"/>D <input type="text" name="anser" value="" style= "background-color: white" id="répo4" />
+				C <input type="text" name="anser" value="" style= "background-color: white" id="répo3" />
+				D <input type="text" name="anser" value="" style= "background-color: white" id="répo4" />
 			</div>
-				<button type="button" id="btnPrécédent" class="btn btn-success btn-sm">Précédente</button>
-				<button type="button"  id="btnSuivant" class="btn btn-success btn-sm">Suivante</button>
 		</form>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnPrecedent"> 
+					<button type="button" id="Precedent" class="btn btn-success btn-sm">Précédente</button>
+				</div>
+				<div class="col-md-6 col-ms-6 col-xs-6 btnSuivant">
+					<button type="button" id="Suivant" class="btn btn-success btn-sm">Suivante</button>
+				</div>
+		
 		</div>
 	  </form>
 
