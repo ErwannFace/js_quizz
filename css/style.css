@@ -19,6 +19,10 @@ section {
 	height: 50px;
 }
 
+button {
+	margin-bottom: 50px !important;
+}
+
 .reponse {
  height: 150px;
  margin-top: 30px;
@@ -41,7 +45,3 @@ section {
 .display-article {
 	display: none;
 }
-
-/*button {
-	margin-bottom: 50px !important;
-}*/
