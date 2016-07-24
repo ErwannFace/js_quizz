@@ -1,5 +1,5 @@
-//Changement de couleur pour question
-	
+
+	//------------------------------------------------------
 	//Question 1
 	//Pour les mauvaises réponse.
 	function faux() {
@@ -27,6 +27,8 @@
 	}
 
 
+
+	//------------------------------------------------------
 	//Question 2
 	//Pour les mauvaises réponse.
 	function faux1() {
@@ -54,6 +56,8 @@
 	}
 
 
+
+	//------------------------------------------------------
 	//Question 3
 	//Pour les mauvaises réponse.
 	function faux2() {
@@ -81,6 +85,8 @@
 	}
 
 
+
+	//------------------------------------------------------
 	//Question 4
 	//Pour les mauvaises réponse.
 	function faux3() {
@@ -108,6 +114,8 @@
 	}
 
 
+
+	//------------------------------------------------------
 	//Question 5
 	//Pour les mauvaises réponse.
 	function faux4() {
@@ -135,6 +143,8 @@
 	}
 
 
+
+	//------------------------------------------------------
 	//Question 6
 	//Pour les mauvaises réponse.
 	function faux5() {
@@ -162,6 +172,8 @@
 	}
 
 
+
+	//------------------------------------------------------
 	//Question 7
 	//Pour les mauvaises réponse.
 	function faux6() {
@@ -189,6 +201,8 @@
 	}
 
 
+
+	//------------------------------------------------------
 	//Question 8
 	//Pour les mauvaises réponse.
 	function faux7() {
@@ -214,6 +228,8 @@
 	        //permet une transition plus douce.
 	        reponse[0].style.transitionDuration = "2s"
 	}
+
+
 
 
 	//Question 9
@@ -243,6 +259,8 @@
 	}
 
 
+
+
 	//Question 10
 	//Pour les mauvaises réponse.
 	function faux9() {
@@ -268,244 +286,3 @@
 	        //permet une transition plus douce.
 	        reponse[0].style.transitionDuration = "2s"
 	}
-
-
-
-
-//Afficher question suivante.
-function questionSuivante1() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="block";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionSuivante2() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="block";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionSuivante3() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="block";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionSuivante4() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="block";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionSuivante5() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="block";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionSuivante6() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="block";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionSuivante7() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="block";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionSuivante8() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="block";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionSuivante9() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="block";
-}
-
-
-
-//Afficher question précédente.
-function questionPrecedente2() {
-	document.getElementById("question1").style.display="block";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionPrecedente3() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="block";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionPrecedente4() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="block";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionPrecedente5() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="block";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionPrecedente6() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="block";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionPrecedente7() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="block";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionPrecedente8() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="block";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionPrecedente9() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="block";
-	document.getElementById("question9").style.display="none";
-	document.getElementById("question10").style.display="none";
-}
-
-function questionPrecedente10() {
-	document.getElementById("question1").style.display="none";
-	document.getElementById("question2").style.display="none";
-	document.getElementById("question3").style.display="none";
-	document.getElementById("question4").style.display="none";
-	document.getElementById("question5").style.display="none";
-	document.getElementById("question6").style.display="none";
-	document.getElementById("question7").style.display="none";
-	document.getElementById("question8").style.display="none";
-	document.getElementById("question9").style.display="block";
-	document.getElementById("question10").style.display="none";
-}
