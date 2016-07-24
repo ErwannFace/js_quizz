@@ -43,16 +43,29 @@ function RendreQuestion(){
 	
 }
 function checkAnswer(){
-	reponses = document.getElementById("reponses");
+	reponses = _("reponses");
 	for (var i=0; i<reponses.length; i++){
 		if (reponses[i].checked){
 			reponse = reponses[i].value;
 		}
 	}
-	if (reponse == questions[pos][6]){
+	if (reponse == questions[pos][9]){
 		correct++;
 	}
 	pos++;
+	RendreQuestion();
+}
+function ReturnQ(){
+	reponses = document.getElementById("reponses");
+	for (var i=0; i>reponses.length; i++){
+		if (reponses[i].checked){
+			reponse = reponses[i].value;
+		}
+	}
+	if (reponse == questions[pos][9]){
+		correct++;
+	}
+	pos--;
 	RendreQuestion();
 }
 window.addEventListener("load", RendreQuestion, false);
