@@ -11,13 +11,18 @@ h1 {
 	padding-top: 50px;
 }
 
-.ready {
-	display: inline;
+.Pret {
+	padding-left: 130px!important;
+	padding-bottom: 15px;
 }
-
 .anim  {
 	display: none;
 }
+
+a {
+	text-decoration: none;
+}
+
 
 /************************************************
 *****************Page Quizz**********************
