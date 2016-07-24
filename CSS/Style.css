@@ -11,8 +11,12 @@ h1 {
 	padding-top: 50px;
 }
 
+.ready {
+	display: inline;
+}
+
 .anim  {
-	
+	display: none;
 }
 
 /************************************************
