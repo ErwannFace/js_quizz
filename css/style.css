@@ -1,0 +1,8 @@
+.reponseOne, .reponseTwo, .reponseThree, .reponseFour {
+border : 1px solid rgb(213,213,213); height : 60px;
+}
+
+button {
+width : 40%; height : 40px; margin : 20px 0 0 0;
+}
+
