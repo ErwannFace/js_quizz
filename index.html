@@ -4,8 +4,44 @@
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<title>js_quizz - Testez vos connaissances !</title>
 	</head>
 	<body>
+		<!-- page title -->
+		<h1>
+			js_quizz
+			<small>
+				Testez vos connaissances !
+			</small>
+		</h1>
+		<!-- table including the question and answers -->
+		<table>
+			<colgroup>
+				<col/>
+				<col/>
+			</colgroup>
+			<!-- question -->
+			<th id="question" colspan="0"></th>
+			<!-- answers -->
+			<tr>
+				<td id="answer1"></td>
+				<td id="answer2"></td>
+			</tr>
+			<tr>
+				<td id="answer3"></td>
+				<td id="answer4"></td>
+			</tr>
+		</table>
+		<!-- buttons to validate the answer and browse the questions -->
+		<button id="previous">
+			Question précédente
+		</button>
+		<button id="validate">
+			Valider la réponse
+		</button>
+		<button id="next">
+			Question suivante
+		</button>
 	</body>
 	<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
