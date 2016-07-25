@@ -16,5 +16,9 @@ function previous_question() {
 }
 
 function answer_true() {
-    document.getElementById("vrai"i).style.background="green";
+    document.getElementById("vrai" + i).style.background="green";
+};
+
+function answer_false() {
+    document.getElementById("faux" + i).style.background="red";
 };
