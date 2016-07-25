@@ -64,6 +64,7 @@ var questionIndex = 1;
 
 function fillTable() {
 	$("#next").attr("disabled", true);
+	$("#next").removeClass("btn-primary");
 	question = this["question" + questionIndex];
 	$("#question").text(question[0]);
 	$("#answer1").text(question[1]);
@@ -83,6 +84,7 @@ function fillTable() {
 		});
 		if (questionIndex < 10) {
 			$("#next").attr("disabled", false);
+			$("#next").addClass("btn-primary");
 		}
 	}
 }
@@ -93,9 +95,11 @@ $("#next").click(function() {
 	fillTable();
 	if (questionIndex == 10) {
 		$("#next").attr("disabled", true);
+		$("#next").removeClass("btn-primary");
 	}
 	if (questionIndex >= 2) {
 		$("#previous").attr("disabled", false);
+		$("#previous").addClass("btn-primary");
 	}
 });
 
@@ -105,9 +109,11 @@ $("#previous").click(function() {
 	fillTable();
 	if (questionIndex == 1) {
 		$("#previous").attr("disabled", true);
+		$("#previous").removeClass("btn-primary");
 	}
 	if (questionIndex <= 9) {
 		$("#next").attr("disabled", false);
+		$("#next").addClass("btn-primary");
 	}
 });
 
@@ -116,6 +122,7 @@ $(".answer").click(function() {
 	resetAnswers();
 	$(this).addClass("info");
 	$("#validate").attr("disabled",false);
+	$("#validate").addClass("btn-primary");
 });
 
 $("#validate").click(function() {
@@ -129,13 +136,16 @@ $("#validate").click(function() {
 			$(this).addClass("danger");
 		}
 	});
-	if (questionIndex <= 9) {
+	if (questionIndex < 10) {
 		$("#next").attr("disabled", false);
+		$("#next").addClass("btn-primary");
 	}
-	if (questionIndex >= 2) {
+	if (questionIndex > 1) {
 		$("#previous").attr("disabled", false);
+		$("#previous").addClass("btn-primary");
 	}
 	$("#validate").attr("disabled",true);
+	$("#validate").removeClass("btn-primary");
 });
 
 function resetAnswers() {
