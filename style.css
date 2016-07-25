@@ -12,3 +12,11 @@ div {
 .start {
     display: block;
 }
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}

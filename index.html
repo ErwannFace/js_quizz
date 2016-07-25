@@ -7,47 +7,47 @@
     <link rel="stylesheet" href="style.css"/>
 <body>
     <div id="1" class="start">
-        <h3 id="qst1">Qui est la petite soeur de Rarity ?</h3>
+        <h3>Qui est la petite soeur de Rarity ?</h3>
         <table>
             <tr>
-                <td id="faux1-1" onclick="answer_false()">AppleJack</td>
-                <td id="faux1-2" onclick="answer_false()">Scootaloo</td>
+                <td onclick="answer_false(this)">AppleJack</td>
+                <td onclick="answer_false(this)">Scootaloo</td>
             </tr>
             <tr>
-                <td id="vrai1" onclick="answer_true()">SweetieBell</td>
-                <td id="faux1-3" onclick="answer_false()">Twilight Sparkle</td>
+                <td id="vrai1" onclick="answer_right(this)">SweetieBell</td>
+                <td id="faux1-3" onclick="answer_false(this)">Twilight Sparkle</td>
             </tr>
         </table>
     </div>
     <div id="2">
-        <h3 id="qst2">Qui veut détruire Ponyville et tout Equestria dans l'épside 1 saison 1 ?</h3>
+        <h3>Qui veut détruire Ponyville et tout Equestria dans l'épside 1 saison 1 ?</h3>
         <table>
             <tr>
-                <td id="faux2">Discorde</td>
-                <td id="vrai2" onclick="answer_true()">NighmareMoon</td>
+                <td id="faux2-1">Discorde</td>
+                <td id="vrai2" onclick="answer_right()">NighmareMoon</td>
             </tr>
             <tr>
-                <td id="faux2">Zecora</td>
-                <td id="faux2">reponse</td>
+                <td id="faux2-2">Zecora</td>
+                <td id="faux2-2">Celestia</td>
             </tr>
         </table>
     </div>
     <div id="3">
-        <h3 id="qst3">Question3</h3>
+        <h3>Qui chante la toute première chanson ?</h3>
         <table>
             <tr>
-                <td id="vrai3">reponse</td>
-                <td id="faux3">reponse</td>
+                <td id="vrai3" onclick="answer_right()">PinkiePie</td>
+                <td id="faux3-3">RainbowDash</td>
             </tr>
             <tr>
-                <td id="faux3">reponse</td>
-                <td id="faux3">reponse</td>
+                <td id="faux3-3">TwilightSparkle</td>
+                <td id="faux3-3">FlutterShy</td>
             </tr>
         </table>
     </div>
     
-    <button id="previous" onclick="previous_question()">Previous</button>
-    <button id="next" onclick="next_question()">Next</button>
+    <button id="previous">Previous</button>
+    <button id="next">Next</button>
     
     <script src="jquery.js"></script>
     <script src="script.js"></script>

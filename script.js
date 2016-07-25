@@ -1,24 +1,24 @@
 var i = 1;
 var j = 2;
 
-function next_question() {
-    document.getElementById(i).style.display="none";
-    document.getElementById(j).style.display="block";
+$("#next").click(function() {
+    $("#" + i).hide();
+    $("#" + j).show();
     i++;
     j++;
-};
+});
 
-function previous_question() {
+$("#previous").click(function() {
     i--;
     j--;
-    document.getElementById(i).style.display="block";
-    document.getElementById(j).style.display="none";
+    $("#" + i).show();
+    $("#" + j).hide();
+});
+
+function answer_right(target) {
+    target.style.background="green";
 }
 
-function answer_true() {
-    document.getElementById("vrai" + i).style.background="green";
-};
-
-function answer_false() {
-    document.getElementById("faux" + i).style.background="red";
+function answer_false(target) {
+    target.style.background="red";
 };
