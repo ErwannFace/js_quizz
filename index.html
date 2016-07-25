@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Quizz</title>
+	<meta charset="utf-8" author="Lise">
+	<!--Liens css-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+<h1 class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8">Welcome my quizz</h1>
+<div class="separator col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8"></div>
+
+
+	<!--CSS des articles - 1 -->
+	<article id="question1">
+		<h3 class="text-uppercase col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8">Question n°1 : <small class="text-uppercase">Au Moyen-Âge, comment appelait-on les villages fortifiés ?</small></h3>
+
+	<div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-offset-2 col-sm-8">
+
+		<div class="faux reponse text-center col-md-2 col-xs-12 col-sm-5" onclick="faux()"><h4>Tour</h4></div>
+
+		<div class="vrai reponse text-center col-md-offset-1 col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="vrai()"><h4>Bastide</h4></div>
+
+		<div class="faux reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-5" onclick="faux()"><h4>Château-fort</h4></div>
+
+		<div class="faux reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux()"><h4>Rempart</h4></div>
+
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-6 col-sm-3 col-sm-offset-6 col-xs-5 col-xs-offset-7" onclick="questionSuivante1()">Suivante</button>
+
+	</div>
+	</article>
+
+
+	<!--CSS des articles - 2 -->
+	<article id="question2" class="display-article">
+		<h3 class="text-uppercase col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8">Question n°2 : <small class="text-uppercase">Dans quel film un couple en croisière va-t-il recueillir un naufragé qui va les terrifier ?</small></h3>
+
+	<div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-offset-2 col-sm-8">
+
+		<div class="vrai1 reponse text-center col-md-2 col-xs-12 col-sm-5" onclick="vrai1()"><h4>Calme blanc</h4></div>
+
+		<div class="faux1 reponse text-center col-md-offset-1 col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux1()"><h4>Tempête en mer</h4></div>
+
+		<div class="faux1 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-5" onclick="faux1()"><h4>Le naufragé</h4></div>
+
+		<div class="faux1 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux1()"><h4>Les disparus</h4></div>
+
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente2()">Précédente</button>
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-5 col-xs-offset-2" onclick="questionSuivante2()">Suivante</button>
+	</article>
+
+
+	<!--CSS des articles - 3 -->
+	<article id="question3" class="display-article">
+		<h3 class="text-uppercase col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8">Question n°3 : <small class="text-uppercase">Quel acteur français avait le premier rôle dans le film de Luchino Visconti "Le Guépard" ?</small></h3>
+
+	<div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-offset-2 col-sm-8">
+
+		<div class="faux2 reponse text-center col-md-2 col-xs-12 col-sm-5" onclick="faux2()"><h4>Jean-Paul Belmondo</h4></div>
+
+		<div class="faux2 reponse text-center col-md-offset-1 col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux2()"><h4>Claude Brasseur</h4></div>
+
+		<div class="faux2 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-5" onclick="faux2()"><h4>Jean Gabin</h4></div>
+
+		<div class="vrai2 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="vrai2()"><h4>Alain Delon</h4></div>
+
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente3()">Précédente</button>
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-5 col-xs-offset-2" onclick="questionSuivante3()">Suivante</button>
+
+	</div>
+	</article>
+
+
+	<!--CSS des articles - 4 -->
+	<article id="question4" class="display-article">
+		<h3 class="text-uppercase col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8">Question n°4 : <small class="text-uppercase">Quel film à succès a réuni sur les écrans Sean Connery et Christophe Lambert ?</small></h3>
+
+	<div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-offset-2 col-sm-8">
+
+		<div class="vrai3 reponse text-center col-md-2 col-xs-12 col-sm-5" onclick="vrai3()"><h4>Highlander</h4></div>
+
+		<div class="faux3 reponse text-center col-md-offset-1 col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux3()"><h4>Greystoke</h4></div>
+
+		<div class="faux3 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-5" onclick="faux3()"><h4>Subway</h4></div>
+
+		<div class="faux3 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux3()"><h4>Mad Max</h4></div>
+
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente4()">Précédente</button>
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-5 col-xs-offset-2" onclick="questionSuivante4()">Suivante</button>
+
+	</div>
+	</article>
+
+
+	<!--CSS des articles - 5 -->
+	<article id="question5" class="display-article">
+		<h3 class="text-uppercase col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8">Question n°5 : <small class="text-uppercase">Comment appelle-t-on le fruit du plaqueminier ?</small></h3>
+
+	<div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-offset-2 col-sm-8">
+
+		<div class="faux4 reponse text-center col-md-2 col-xs-12 col-sm-5" onclick="faux4()"><h4>Kakou</h4></div>
+
+		<div class="faux4 reponse text-center col-md-offset-1 col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux4()"><h4>Kacha</h4></div>
+
+		<div class="vrai4 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-5" onclick="vrai4()"><h4>Kaki</h4></div>
+
+		<div class="faux4 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux4()"><h4>Kali</h4></div>
+
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente5()"()">Précédente</button>
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-5 col-xs-offset-2" onclick="questionSuivante5()">Suivante</button>
+
+	</div>
+	</article>
+
+
+	<!--CSS des articles - 6 -->
+	<article id="question6" class="display-article">
+		<h3 class="text-uppercase col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8">Question n°6 : <small class="text-uppercase">Qui était le compagnon de saint Paul ?</small></h3>
+
+	<div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-offset-2 col-sm-8">
+
+		<div class="faux5 reponse text-center col-md-2 col-xs-12 col-sm-5" onclick="faux5()"><h4>Saint-Matthieu</h4></div>
+
+		<div class="faux5 reponse text-center col-md-offset-1 col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux5()"><h4>Saint-Jean</h4></div>
+
+		<div class="vrai5 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-5" onclick="vrai5()"><h4>Saint-Luc</h4></div>
+
+		<div class="faux5 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux5()"><h4>Saint-Marc</h4></div>
+
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente6()">Précédente</button>
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-5 col-xs-offset-2" onclick="questionSuivante6()">Suivante</button>
+
+	</div>
+	</article>
+
+
+	<!--CSS des articles - 7 -->
+	<article id="question7" class="display-article">
+		<h3 class="text-uppercase col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8">Question n°7 : <small class="text-uppercase">Dans quel film John Travolta incarne-t-il un ange tombé du ciel ?</small></h3>
+
+	<div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-offset-2 col-sm-8">
+
+		<div class="vrai6 reponse text-center col-md-2 col-xs-12 col-sm-5" onclick="vrai6()"><h4>Michael</h4></div>
+
+		<div class="faux6 reponse text-center col-md-offset-1 col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux6()"><h4>Johnny</h4></div>
+
+		<div class="faux6 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-5" onclick="faux6()"><h4>Jerry</h4></div>
+
+		<div class="faux6 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux6()"><h4>Sam</h4></div>
+
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente7()">Précédente</button>
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-5 col-xs-offset-2" onclick="questionSuivante7()">Suivante</button>
+
+	</div>
+	</article>
+
+
+	<!--CSS des articles - 8 -->
+	<article id="question8" class="display-article">
+		<h3 class="text-uppercase col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8">Question n°8 : <small class="text-uppercase">Quel titre de noblesse est immédiatement inférieur à celui de comte ?</small></h3>
+
+	<div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-offset-2 col-sm-8">
+
+		<div class="faux7 reponse text-center col-md-2 col-xs-12 col-sm-5" onclick="faux7()"><h4>Archiduc</h4></div>
+
+		<div class="faux7 reponse text-center col-md-offset-1 col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux7()"><h4>Marquis</h4></div>
+
+		<div class="vrai7 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-5" onclick="vrai7()"><h4>Vicomte</h4></div>
+
+		<div class="faux7 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux7()"><h4>Duc</h4></div>
+
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5"onclick="questionPrecedente8()"()">Précédente</button>
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-5 col-xs-offset-2" onclick="questionSuivante8()">Suivante</button>
+
+	</div>
+	</article>
+
+
+	<!--CSS des articles - 9 -->
+	<article id="question9" class="display-article">
+		<h3 class="text-uppercase col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8">Question n°9 : <small class="text-uppercase">De quelle série de six films un champion de boxe est-il la vedette ?</small></h3>
+
+	<div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-offset-2 col-sm-8">
+
+		<div class="faux8 reponse text-center col-md-2 col-xs-12 col-sm-5" onclick="faux8()"><h4>Ritchie</h4></div>
+
+		<div class="vrai8 reponse text-center col-md-offset-1 col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="vrai8()"><h4>Rocky</h4></div>
+
+		<div class="faux8 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-5" onclick="faux8()"><h4>Rambo</h4></div>
+
+		<div class="faux8 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux8()"><h4>Randy</h4></div>
+
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente9()">Précédente</button>
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-5 col-xs-offset-2" onclick="questionSuivante9()">Suivante</button>
+
+	</div>
+	</article>
+
+
+	<!--CSS des articles - 10 -->
+	<article id="question10" class="display-article">
+		<h3 class="text-uppercase col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8">Question n°10 : <small class="text-uppercase">Quelle est la capitale de la Nouvelle-Zélande ?</small></h3>
+
+	<div class="col-md-offset-2 col-md-8 col-xs-12 col-sm-offset-2 col-sm-8">
+
+		<div class="faux9 reponse text-center col-md-2 col-xs-12 col-sm-5" onclick="faux9()"><h4>Dublin</h4></div>
+
+		<div class="faux9 reponse text-center col-md-offset-1 col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux9()"><h4>Auckland</h4></div>
+
+		<div class="vrai9 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-5" onclick="vrai9()"><h4>Wellington</h4></div>
+
+		<div class="faux9 reponse text-center col-md-offset-1 col-md-2 col-xs-12 col-sm-offset-1 col-sm-5" onclick="faux9()"><h4>Sydney</h4></div>
+
+		<button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente10()">Précédente</button>
+
+	</div>
+	</article>
+</section>
+
+</div>
+</body>
+
+<!--Scrip-->
+	<script src="js/jquery.js"></script>
+  	<script src="js/bootstrap.js"></script>
+  	<script src="js/reponse.js"></script>
+  	<script src="js/changementquestion.js"></script>
+
+</html>
