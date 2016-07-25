@@ -4,6 +4,7 @@
 + Javascript, 
 + Jquery, 
 + HTML/CSS
++ Bootstrap
 
 Quizz sur les personnages historique qui ont marquer l'histoire du monde  
 Par Youness le 26/08/2016  
