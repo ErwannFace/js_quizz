@@ -1,13 +1,18 @@
 var i = 1;
 var j = 2;
 var answer = false;
+var score = 0;
+
 $("#next").click(function () {
-    if (j < 11 && answer === true) {
+    if (j < 12) {
         $("#" + i).hide();
         $("#" + j).show();
         i++;
         j++;
         answer = false;
+    }
+    if (j == 11) {
+        $("#" + i).text(score + "/10");
     }
 });
 $("#previous").click(function () {
@@ -16,6 +21,7 @@ $("#previous").click(function () {
         j--;
         $("#" + i).show();
         $("#" + j).hide();
+        answer = true;
     }
 });
 
@@ -23,6 +29,7 @@ function answer_right(target) {
     if (answer === false) {
         target.style.background = "green";
         answer = true;
+        score++;
     }
 }
 

@@ -1,8 +1,8 @@
 table, td {
     border: solid black 1px;
     border-collapse: collapse;
-    padding: 3px;
-    margin: 6px;
+    padding: 10px;
+    margin: 10px;
 }
 
 div {
