@@ -1,3 +1,4 @@
+
 	score = 0;
 
 	//------------------------------------------------------
@@ -165,7 +166,6 @@
 	        //permet une transition plus douce.
 	        erreur[i].style.transitionDuration = "2s";
 	        reponse[0].style.transitionDuration = "2s";
-
 	    }
 	}
 
@@ -298,5 +298,5 @@
 	    //permet une transition plus douce.
 	    reponse[0].style.transitionDuration = "2s";
 	    score++;
-	    alert(score + " / 10");
+	    document.getElementById("score").innerHTML = score + " / 10";
 	}
