@@ -15,23 +15,25 @@
 			</small>
 		</h1>
 		<!-- table including the question and answers -->
-		<table class="table table-bordered text-center">
-			<colgroup>
-				<col/>
-				<col/>
-			</colgroup>
-			<!-- question -->
-			<th id="question" colspan="0" class="text-center"></th>
-			<!-- answers -->
-			<tr>
-				<td id="answer1"></td>
-				<td id="answer2"></td>
-			</tr>
-			<tr>
-				<td id="answer3"></td>
-				<td id="answer4"></td>
-			</tr>
-		</table>
+		<div class="table-responsive">
+			<table class="table table-bordered text-center">
+				<colgroup>
+					<col/>
+					<col/>
+				</colgroup>
+				<!-- question -->
+				<th id="question" colspan="0" class="text-center"></th>
+				<!-- answers -->
+				<tr>
+					<td id="answer1" class="answer"></td>
+					<td id="answer2" class="answer"></td>
+				</tr>
+				<tr>
+					<td id="answer3" class="answer"></td>
+					<td id="answer4" class="answer"></td>
+				</tr>
+			</table>
+		</div>
 		<!-- buttons to validate the answer and browse the questions -->
 		<div class="row text-center">
 			<div class="col-md-4">
@@ -45,7 +47,7 @@
 				</button>
 			</div>
 			<div class="col-md-4">
-				<button id="next" class="btn btn-primary btn-lg">
+				<button id="next" disabled="true" class="btn btn-primary btn-lg">
 					Question suivante
 				</button>
 			</div>
