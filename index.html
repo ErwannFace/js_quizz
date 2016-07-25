@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<title>js_quizz - Testez vos connaissances !</title>
 	</head>
-	<body>
+	<body class="container">
 		<!-- page title -->
 		<h1>
 			js_quizz
@@ -15,13 +15,13 @@
 			</small>
 		</h1>
 		<!-- table including the question and answers -->
-		<table>
+		<table class="table table-bordered text-center">
 			<colgroup>
 				<col/>
 				<col/>
 			</colgroup>
 			<!-- question -->
-			<th id="question" colspan="0"></th>
+			<th id="question" colspan="0" class="text-center"></th>
 			<!-- answers -->
 			<tr>
 				<td id="answer1"></td>
@@ -33,15 +33,23 @@
 			</tr>
 		</table>
 		<!-- buttons to validate the answer and browse the questions -->
-		<button id="previous">
-			Question précédente
-		</button>
-		<button id="validate">
-			Valider la réponse
-		</button>
-		<button id="next">
-			Question suivante
-		</button>
+		<div class="row text-center">
+			<div class="col-md-4">
+				<button id="previous" disabled="true" class="btn btn-primary btn-lg">
+					Question précédente
+				</button>
+			</div>
+			<div class="col-md-4">
+				<button id="validate" disabled="true" class="btn btn-primary btn-lg">
+					Valider la réponse
+				</button>
+			</div>
+			<div class="col-md-4">
+				<button id="next" class="btn btn-primary btn-lg">
+					Question suivante
+				</button>
+			</div>
+		</div>
 	</body>
 	<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
