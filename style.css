@@ -1,0 +1,25 @@
+body {
+	font-family: arial;
+}
+
+.nopad {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 50px; 
+	margin-bottom: 20vh;
+	background-color: purple;
+	padding: 5vh;
+	color: white;
+}
+
+.questions {
+	height: 50vh;
+}
+
+section {
+	padding-left: 5vh;
+}
