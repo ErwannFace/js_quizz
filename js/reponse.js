@@ -286,7 +286,7 @@
 	        //permet une transition plus douce.
 	        erreur[i].style.transitionDuration = "2s";
 	        reponse[0].style.transitionDuration = "2s";
-	        alert(score + " / 10")
+	        document.getElementById("score").innerHTML = score + " / 10";
 	    }
 	}
 
