@@ -16,48 +16,48 @@ var question3 = ["Qu’offre Zero The Hero à manger au chat de Yoni ?",
 "un Big Kahuna Burger",
 "des champignons mexicains",
 2];
-var question4 = ["",
-"",
-"",
-"",
-"",
-];
-var question5 = ["",
-"",
-"",
-"",
-"",
-];
-var question6 = ["",
-"",
-"",
-"",
-"",
-];
-var question7 = ["",
-"",
-"",
-"",
-"",
-];
-var question8 = ["",
-"",
-"",
-"",
-"",
-];
-var question9 = ["",
-"",
-"",
-"",
-"",
-];
-var question10 = ["",
-"",
-"",
-"",
-"",
-];
+var question4 = ["Quel est l’intrus dans cette liste ?",
+"Bloomdido Bad De Grass",
+"Dingo Virgin",
+"Francis Bacon",
+"Steve Hillage",
+4];
+var question5 = ["Dans quel véhicule circulent les extra-terrestes ?",
+"des soucoupes volantes",
+"des saucières volantes",
+"des théières volantes",
+"des soupières volantes",
+3];
+var question6 = ["Quelle est la profession de Sélène ?",
+"prostituée",
+"professeure",
+"prêtresse",
+"princesse",
+1];
+var question7 = ["Comment communiquent les gnomes ?",
+"par télépathie",
+"par une radio pirate",
+"par signaux de fumée",
+"par un langage connu d’eux seuls",
+2];
+var question8 = ["Terminez cettte phrase : BANANA NIRVANA …",
+"MANANA",
+"ANANDA",
+"ANACONDA",
+"BANANA",
+1];
+var question9 = ["De quelle planète est originaire Zero The Heor",
+"Gong",
+"Kobaïa",
+"la Terre",
+"Mars",
+3];
+var question10 = ["Mais, au fait, quelle est la thématique de ce quizz ?",
+"Gong, le meilleur groupe de rock progressif de tous les temps !",
+"ne cliquez pas ici",
+"ceci est une mauvaise réponse",
+"non, franchement, la bonne réponse est la première",
+1];
 
 var question;
 var questionIndex = 1;
@@ -122,7 +122,7 @@ $(".answer").click(function() {
 	resetAnswers();
 	$(this).addClass("info");
 	$("#validate").attr("disabled",false);
-	$("#validate").addClass("btn-primary");
+	$("#validate").addClass("btn-success");
 });
 
 $("#validate").click(function() {
@@ -145,7 +145,7 @@ $("#validate").click(function() {
 		$("#previous").addClass("btn-primary");
 	}
 	$("#validate").attr("disabled",true);
-	$("#validate").removeClass("btn-primary");
+	$("#validate").removeClass("btn-success");
 });
 
 function resetAnswers() {
