@@ -1,3 +1,5 @@
+    /*  ==== Je suis désolée, je sais que mon code n'est pas optimal,
+    je n'ai pas encore saisie le principe des paramètres :S :S* ==== */
 
 	score = 0;
 
@@ -27,6 +29,8 @@
 	    //permet une transition plus douce.
 	    reponse[0].style.transitionDuration = "2s";
 	    score++;
+        document.getElementById("score").innerHTML = score + " / 10";
+        
 	}
 
 
@@ -57,6 +61,7 @@
 	    //permet une transition plus douce.
 	    reponse[0].style.transitionDuration = "2s";
 	    score++;
+        document.getElementById("score").innerHTML = score + " / 10";
 	}
 
 
@@ -87,6 +92,7 @@
 	    //permet une transition plus douce.
 	    reponse[0].style.transitionDuration = "2s";
 	    score++;
+        document.getElementById("score").innerHTML = score + " / 10";
 	}
 
 
@@ -117,6 +123,7 @@
 	    //permet une transition plus douce.
 	    reponse[0].style.transitionDuration = "2s";
 	    score++;
+        document.getElementById("score").innerHTML = score + " / 10";
 	}
 
 
@@ -147,6 +154,7 @@
 	    //permet une transition plus douce.
 	    reponse[0].style.transitionDuration = "2s";
 	    score++;
+        document.getElementById("score").innerHTML = score + " / 10";
 	}
 
 
@@ -177,6 +185,7 @@
 	    //permet une transition plus douce.
 	    reponse[0].style.transitionDuration = "2s";
 	    score++;
+        document.getElementById("score").innerHTML = score + " / 10";
 	}
 
 
@@ -207,6 +216,7 @@
 	    //permet une transition plus douce.
 	    reponse[0].style.transitionDuration = "2s";
 	    score++;
+        document.getElementById("score").innerHTML = score + " / 10";
 	}
 
 
@@ -237,6 +247,7 @@
 	    //permet une transition plus douce.
 	    reponse[0].style.transitionDuration = "2s";
 	    score++;
+        document.getElementById("score").innerHTML = score + " / 10";
 	}
 
 
@@ -267,6 +278,7 @@
 	    //permet une transition plus douce.
 	    reponse[0].style.transitionDuration = "2s";
 	    score++;
+        document.getElementById("score").innerHTML = score + " / 10";
 	}
 
 
