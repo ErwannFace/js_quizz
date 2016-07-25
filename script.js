@@ -12,7 +12,7 @@ $("#next").click(function () {
         answer = false;
     }
     if (j == 11) {
-        $("#" + i).text(score + "/10");
+        $("#" + i).text("Votre score: " + score + "/10");
     }
 });
 $("#previous").click(function () {
