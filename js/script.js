@@ -1,7 +1,17 @@
 /*Link tutoriel : https://www.youtube.com/watch?v=d_UuOVhuCF8*/
 /*Initialisation des différentes variables*/
 
-var pos = 0, test, test_status, question, reponse, reponses, r1, r2, r3, r4, correct=0;
+var pos = 0;
+var test;
+var test_status;
+var question;
+var reponse;
+var reponses;
+var r1;
+var r2;
+var r3;
+var r4;
+var correct=0;
 
 /*Création des questions*/
 
@@ -12,7 +22,7 @@ var questions = [
 	["Qui a remplacé DSK à la présidence du FMI ?", "Michel Alliot-Marie", "Michel Sapin","Chrisitine Lagarde","Christine Taubira", "3" ],
 	["Où se trouve Wallis-et-Futuna ?", "Pacifique Sud", "Antilles", "Mer des Caraïbes", "Océan Indien", "1"],
 	["Quel est le fondateur de Snapchat ?", "Xavier Niel", "Evan Spieggle", "Adolf Dassler", "Eric Cantona", "Brarack Obama","2"],
-	["Quel est la capital du Brésil ?", "Sao Paulo", "Brasilia", "Rio de Janeiro", "Sao Luis","1"],
+	["Quel est la capital du Brésil ?", "Sao Paulo", "Brasilia", "Rio de Janeiro", "Sao Luis","2"],
 	["Qui est le président de la Fondation Face ?", "Sébastien Ramos", "Mark Zuckerberg", "Gérard MESTRALLET", "Alain ROUMILHAC", "3"],
 	["Quel est le pays le plus pauvres ?", "Mongolie", "Kirghizstan", "Jamaïque", "Bénin", "2"],
 	["Dans quel état des Etats-Unis se trouve Chicago ?", "Mineapolis", "Missouri", "Pennsylvanie", "Illinois", "4"],
@@ -43,23 +53,23 @@ function RendreQuestion(){
 	r3 = questions[pos][3];
 	r4 = questions[pos][4];
 	test.innerHTML ="<h3>"+question+"</h3>";
-	test.innerHTML +="<button id='reponses' value='1'> "+r1+"<br>";
-	test.innerHTML +="<button id='reponses' value='2'> "+r2+"<br>";
-	test.innerHTML +="<button id='reponses' value='3'> "+r3+"<br>";
-	test.innerHTML +="<button id='reponses' value='4'> "+r4+"<br><br>";
+	test.innerHTML +="<input type='radio' name='reponses' value='1'> "+r1+"<br>";
+	test.innerHTML +="<input type='radio' name='reponses' value='2'> "+r2+"<br>";
+	test.innerHTML +="<input type='radio' name='reponses' value='3'> "+r3+"<br>";
+	test.innerHTML +="<input type='radio' name='reponses' value='4'> "+r4+"<br><br>";
 	
 }
 
 function checkAnswer(){
 
 		console.log(checkAnswer);
-	reponses = _("reponses");
+	reponses = document.getElementsByName("reponses");
 	for (var i=0; i<reponses.length; i++){
-		if (reponses[i].onclick){
+		if (reponses[i].checked){
 			reponse = reponses[i].value;
 		}
 	}
-	if (reponse == questions[pos][10]){
+	if (reponse == questions[pos][5]){
 		correct++;
 	}
 	pos++;
@@ -67,13 +77,13 @@ function checkAnswer(){
 }
 function ReturnQ(){
 	console.log(ReturnQ);
-	reponses = document.getElementById("reponses");
+	reponses = document.getElementsByName("reponses");
 	for (var i=0; i>reponses.length; i++){
 		if (reponses[i].checked){
 			reponse = reponses[i].value;
 		}
 	}
-	if (reponse == questions[pos][10]){
+	if (reponse == questions[pos][5]){
 		correct++;
 	}
 	pos--;
