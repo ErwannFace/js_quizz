@@ -35,5 +35,23 @@ $('a').hover(
               $('#img1').attr('src', 'wrong.png');
               $('#reponse1').css('color', 'red');
             }
+          
+            $('.reponse').show();
+            if ( ($(':radio[id="r6"]:checked').val()) {
+              //&& ($(':radio[id="r8"]:checked')).val() )  
+            
+              $('#img2').attr('src', 'right.png'); 
+              $('#reponse2').css('color', 'green');
+            }  
+            else {
+              $('#img2').attr('src', 'wrong.png');
+              $('#reponse2').css('color', 'red');
+            }
+
+
+
+
+
+
           }
         );       
