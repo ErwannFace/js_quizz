@@ -1,0 +1,46 @@
+/************************************************
+*****************Page Index**********************
+************************************************/
+
+body {
+	background-color: #EEE8AA!important;
+}
+
+h1 {
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+
+.Pret {
+	padding-left: 130px!important;
+	padding-bottom: 15px;
+}
+.anim  {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/************************************************
+*****************Page Quizz**********************
+************************************************/
+
+img {
+	width: 280px;
+	height: 300px;
+}
+.question2, .question3, .question4, .question5, .question6, .question7, .question8, .question9, .question10 {
+	display: none;
+}
+
+.question {
+	font-style: bold;
+	font-size: 30px;
+}
+
+.bout {
+	padding-top: 15px;
+}
