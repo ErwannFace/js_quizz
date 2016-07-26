@@ -49,7 +49,7 @@ function checkAnswer(){
 			reponse = reponses[i].value;
 		}
 	}
-	if (reponse == questions[pos][9]){
+	if (reponse == questions[pos][10]){
 		correct++;
 	}
 	pos++;
