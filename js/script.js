@@ -24,7 +24,7 @@ $("p").css("font-size", "17px");
 $("p").css("color", "gray");
 
 //  Action link «check responses»
-$('a').hover(
+$('a').mouseover(
           function() { 
             $('.reponse').show();
             if ($(':radio[id="r3"]:checked').val()) {
@@ -64,9 +64,80 @@ $('a').hover(
 
               $('#img3').attr('src', 'wrong.png');
               $('#reponse3').css('color', 'red');
+            }          
+          
+            if ($(':radio[id="r13"]:checked').val()) {
+              $('#img4').attr('src', 'right.png'); 
+              $('#reponse4').css('color', 'green');
+            }  
 
+            else {
+              $('#img4').attr('src', 'wrong.png');
+              $('#reponse4').css('color', 'red');
+            } 
+
+            if ($(':radio[id="r18"]:checked').val()) {
+              $('#img5').attr('src', 'right.png'); 
+              $('#reponse5').css('color', 'green');
+            }  
+
+            else {
+              $('#img5').attr('src', 'wrong.png');
+              $('#reponse5').css('color', 'red');
+            } 
+
+
+            if ($(':radio[id="r22"]:checked').val()) {
+              $('#img6').attr('src', 'right.png'); 
+              $('#reponse6').css('color', 'green');
+            }  
+
+            else {
+              $('#img6').attr('src', 'wrong.png');
+              $('#reponse6').css('color', 'red');
+            } 
+
+
+            if ($(':radio[id="r24"]:checked').val()) {
+              $('#img7').attr('src', 'right.png'); 
+              $('#reponse7').css('color', 'green');
+            }  
+
+            else {
+              $('#img7').attr('src', 'wrong.png');
+              $('#reponse7').css('color', 'red');
+            } 
+
+            if ($(':radio[id="r29"]:checked').val()) {
+              $('#img8').attr('src', 'right.png'); 
+              $('#reponse8').css('color', 'green');
+            }  
+
+            else {
+              $('#img8').attr('src', 'wrong.png');
+              $('#reponse8').css('color', 'red');
+            } 
+
+            if ($(':radio[id="r31"]:checked').val()) {
+              $('#img9').attr('src', 'right.png'); 
+              $('#reponse9').css('color', 'green');
+            }  
+
+            else {
+              $('#img9').attr('src', 'wrong.png');
+              $('#reponse9').css('color', 'red');
+            } 
+
+
+            if ($(':radio[id="r36"]:checked').val()) {
+              $('#img10').attr('src', 'right.png'); 
+              $('#reponse10').css('color', 'green');
+            }  
+
+            else {
+              $('#img10').attr('src', 'wrong.png');
+              $('#reponse10').css('color', 'red');
             }
           }
         );       
-
 
