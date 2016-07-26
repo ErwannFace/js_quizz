@@ -8,18 +8,24 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="center-block box col-md-12">
-                <h1 class="Title col-md-12 text-center">WELCOME TO MY QUIZZ</h1>
+            <div  class="center-block box col-md-12">
+                <h1 id="title" class="Title col-md-12 text-center">WELCOME TO MY QUIZZ</h1>
                 <h2 class="sub_title col-md-12 text-center">Question</h2>
                 <p class="question col-md-6 center-block">la question</p>
-                <div class="box_question col-md-12">
-                    <div class="q1 col-md-6" value="">1</div>
-                    <div class="q2 col-md-6" value="">2</div>
-                    <div class="q3 col-md-6" value="">3</div>
-                    <div class="q4 col-md-6" value="">4</div>
+                <div id="container" class="box_question col-md-12">
+                    <div id="answer" class="answer col-md-6" onclick="addclass(this)">Réponse 1</div>
+
+                    <div id="answer" class="answer col-md-6" onclick="addclass(this)">Réponse 2</div>
+
+                    <div id="answer" class="answer col-md-6" onclick="addclass(this)">Réponse 3</div>
+
+                    <div id="answer" class="answer col-md-6" onclick="addclass(this)">Réponse 4</div>
                 </div>
             </div>
+            <button class="" onclick="reveal()">CHECK YOUR ANSWER</button>
+            <div class="next">NEXT--></div>
         </div>
     </div>
+    <script src="app/js/script.js"></script>
 </body>
 </html>
