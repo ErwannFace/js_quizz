@@ -1,12 +1,31 @@
+// inscrivez le nombre de question dans votre quizz ici
+var nbQuestion = 10;
 // passer les questions
 var next = 1;
+// score du quizzer :)
+var score = 0;
 
 function limitSkip() {
-    if (next == 11) {
-        next = 10;
+    if (next == nbQuestion + 2) {
+        next = nbQuestion;
     } else if (next == 0) {
         next = 1;
     }
+    if (next == nbQuestion + 1) {
+        $("#score").text(score);
+        $("#scoreTotal").text(nbQuestion);
+    }
+}
+
+function nextQuestion() {
+    $("#Q" + next + "").css({
+        "display": "none"
+    });
+    next++;
+    limitSkip();
+    $("#Q" + next + "").css({
+        "display": "block"
+    });
 }
 
 $("#next").click(function () {
@@ -32,6 +51,7 @@ $("#last").click(function () {
 });
 
 $(".ans-good").click(function () {
+    score++;
     $("#Q" + next + " td").css({
         "background-color": "white",
         "color": "black"
@@ -40,6 +60,9 @@ $(".ans-good").click(function () {
         "background-color": "green",
         "color": "white"
     });
+    setTimeout(function () {
+        nextQuestion();
+    }, 600);
 });
 
 $(".ans-bad").click(function () {
@@ -51,4 +74,7 @@ $(".ans-bad").click(function () {
         "background-color": "red",
         "color": "white"
     });
+    setTimeout(function () {
+        nextQuestion();
+    }, 600);
 });
