@@ -14,14 +14,10 @@ $('#slider-prev').click(function(){
 //#66ff66 = vert
 //#ff4d4d = rouge
 
-
-var inc = 0;
-
 $(".false").click(function () {
     $(this).css({"background-color": "#ff4d4d", "color": "#000"});
 });
 
 $(".true").click(function () {
     $(this).css({"background-color": "#66ff66", "color": "#000"});
-    inc ++;
 });
