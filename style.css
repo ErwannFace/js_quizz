@@ -1,5 +1,6 @@
 body {
-	font-family: arial;
+	font-family: Norasi;
+	background-color: lightyellow;
 }
 
 .nopad {
@@ -10,16 +11,69 @@ body {
 h1 {
 	font-weight: 900;
 	font-size: 50px; 
-	margin-bottom: 20vh;
-	background-color: purple;
+	margin-bottom: 15vh;
+	margin-top: 0;	
+	background-color: #450036;
 	padding: 5vh;
-	color: white;
+	color: #ffe6f9;
 }
+
+h2 {
+	margin-bottom: 7vh;
+	color: #140010;
+	border-bottom: 2px inset black;
+
+}
+
+section > p {
+	font-style: italic;
+	font-size: 17px;
+	color: #140010;
+	padding-bottom: 5vh;
+}
+
+
 
 .questions {
 	height: 50vh;
+	margin-bottom: 15vh;
 }
 
-section {
-	padding-left: 5vh;
+
+.answers:hover {
+	background-color: #003939;
+	color: #ccffff;
+}
+
+.buttbutt {
+	margin-top: 5vh;
+}
+
+.answers {
+	padding: 3vh 0 3vh 3vh;
+	border: groove 3px #216969;
+	border-radius: 4px;
+	background-color: #e6ffff;
+}
+
+.answers:active {
+	transform: translateY(2px);
+}
+
+div div p {
+	font-weight: bold;
+}
+
+button {
+	background-color: #7f286c;
+	color: white;
+	border-radius: 5px;
+	padding: 1.5vh 5.5vh;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #ff99e9;
+	color: #003939;
 }
