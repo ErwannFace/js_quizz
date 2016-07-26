@@ -7,6 +7,7 @@
     <title>Quizz - Challenge</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
   </head>
   <body>
     <div class="row marg-bot">
@@ -15,104 +16,306 @@
       </div>
     </div>
 
-    <div class="all">
-    <div class="row question">
-      <div class="large-8 medium-8 columns">
-        <h2>Question</h2>
+    <ul class="bxslider">
+      <li>
+        <div id="q1" class="row question">
+          <div class="large-8 medium-8 columns">
+            <h2>Question</h2>
 
-        <div class="row">
-          <div class="large-12 columns">
-              <p>Question 1.....</p>
-          </div>
-        </div>
+            <div class="row">
+              <div class="large-12 columns">
+                  <p>Question 1.....</p>
+              </div>
+            </div>
 
-      </div>
-      <div class="row marg-bot">
-        <div class="large-12 medium-12 columns">
-          <div class="expanded button-group answer">
-            <button class="secondary hollow button">Answer 1.....</button>
-            <button class="secondary hollow button">Answer 1.....</button>
+          </div>
+          <div class="row marg-bot">
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group answer">
+                <button class="secondary hollow button false">Answer 1.....</button>
+                <button class="secondary hollow button true">Answer 1.....</button>
+              </div>
+            </div>
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group">
+                <button class="secondary hollow button false">Answer 1.....</button>
+                <button class="secondary hollow button false">Answer 1.....</button>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="large-12 medium-12 columns">
-          <div class="expanded button-group">
-            <button class="secondary hollow button">Answer 1.....</button>
-            <button class="secondary hollow button">Answer 1.....</button>
-          </div>
-        </div>
-      </div>
-    </div>
+        </li>
+        <li>
+        <div id="q2" class="row question">
+          <div class="large-8 medium-8 columns">
+            <h2>Question</h2>
 
-    <div class="row question">
-      <div class="large-8 medium-8 columns">
-        <h2>Question</h2>
+            <div class="row">
+              <div class="large-12 columns">
+                  <p>Question 2.....</p>
+              </div>
+            </div>
 
-        <div class="row">
-          <div class="large-12 columns">
-              <p>Question 2.....</p>
+          </div>
+          <div class="row marg-bot">
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group answer">
+                <button class="secondary hollow button">Answer 2.....</button>
+                <button class="secondary hollow button">Answer 2.....</button>
+              </div>
+            </div>
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group">
+                <button class="secondary hollow button true">Answer 2.....</button>
+                <button class="secondary hollow button">Answer 2.....</button>
+              </div>
+            </div>
           </div>
         </div>
+        </li>
+        <li>
+        <div class="row question">
+          <div class="large-8 medium-8 columns">
+            <h2>Question</h2>
 
-      </div>
-      <div class="row marg-bot">
-        <div class="large-12 medium-12 columns">
-          <div class="expanded button-group answer">
-            <button class="secondary hollow button">Answer 2.....</button>
-            <button class="secondary hollow button">Answer 2.....</button>
-          </div>
-        </div>
-        <div class="large-12 medium-12 columns">
-          <div class="expanded button-group">
-            <button class="secondary hollow button">Answer 2.....</button>
-            <button class="secondary hollow button">Answer 2.....</button>
-          </div>
-        </div>
-      </div>
-    </div>
+            <div class="row">
+              <div class="large-12 columns">
+                  <p>Question 3.....</p>
+              </div>
+            </div>
 
-    <div class="row question">
-      <div class="large-8 medium-8 columns">
-        <h2>Question</h2>
+          </div>
+          <div class="row marg-bot">
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group answer">
+                <button class="secondary hollow button">Answer 3.....</button>
+                <button class="secondary hollow button">Answer 3.....</button>
+              </div>
+            </div>
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group">
+                <button class="secondary hollow button">Answer 3.....</button>
+                <button class="secondary hollow button">Answer 3.....</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="row question">
+          <div class="large-8 medium-8 columns">
+            <h2>Question</h2>
 
-        <div class="row">
-          <div class="large-12 columns">
-              <p>Question 3.....</p>
-          </div>
-        </div>
+            <div class="row">
+              <div class="large-12 columns">
+                  <p>Question 4.....</p>
+              </div>
+            </div>
 
-      </div>
-      <div class="row marg-bot">
-        <div class="large-12 medium-12 columns">
-          <div class="expanded button-group answer">
-            <button class="secondary hollow button">Answer 3.....</button>
-            <button class="secondary hollow button">Answer 3.....</button>
+          </div>
+          <div class="row marg-bot">
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group answer">
+                <button class="secondary hollow button">Answer 4.....</button>
+                <button class="secondary hollow button">Answer 4.....</button>
+              </div>
+            </div>
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group">
+                <button class="secondary hollow button">Answer 4.....</button>
+                <button class="secondary hollow button">Answer 4.....</button>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="large-12 medium-12 columns">
-          <div class="expanded button-group">
-            <button class="secondary hollow button">Answer 3.....</button>
-            <button class="secondary hollow button">Answer 3.....</button>
+      </li>
+      <li>
+        <div class="row question">
+          <div class="large-8 medium-8 columns">
+            <h2>Question</h2>
+
+            <div class="row">
+              <div class="large-12 columns">
+                  <p>Question 5.....</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="row marg-bot">
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group answer">
+                <button class="secondary hollow button">Answer 5.....</button>
+                <button class="secondary hollow button">Answer 5.....</button>
+              </div>
+            </div>
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group">
+                <button class="secondary hollow button">Answer 5.....</button>
+                <button class="secondary hollow button">Answer 5.....</button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+      </li>
+      <li>
+        <div class="row question">
+          <div class="large-8 medium-8 columns">
+            <h2>Question</h2>
+
+            <div class="row">
+              <div class="large-12 columns">
+                  <p>Question 6.....</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="row marg-bot">
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group answer">
+                <button class="secondary hollow button">Answer 6.....</button>
+                <button class="secondary hollow button">Answer 6.....</button>
+              </div>
+            </div>
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group">
+                <button class="secondary hollow button">Answer 6.....</button>
+                <button class="secondary hollow button">Answer 6.....</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="row question">
+          <div class="large-8 medium-8 columns">
+            <h2>Question</h2>
+
+            <div class="row">
+              <div class="large-12 columns">
+                  <p>Question 7.....</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="row marg-bot">
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group answer">
+                <button class="secondary hollow button">Answer 7.....</button>
+                <button class="secondary hollow button">Answer 7.....</button>
+              </div>
+            </div>
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group">
+                <button class="secondary hollow button">Answer 7.....</button>
+                <button class="secondary hollow button">Answer 7.....</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="row question">
+          <div class="large-8 medium-8 columns">
+            <h2>Question</h2>
+
+            <div class="row">
+              <div class="large-12 columns">
+                  <p>Question 8.....</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="row marg-bot">
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group answer">
+                <button class="secondary hollow button">Answer 8.....</button>
+                <button class="secondary hollow button">Answer 8.....</button>
+              </div>
+            </div>
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group">
+                <button class="secondary hollow button">Answer 8.....</button>
+                <button class="secondary hollow button">Answer 8.....</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="row question">
+          <div class="large-8 medium-8 columns">
+            <h2>Question</h2>
+
+            <div class="row">
+              <div class="large-12 columns">
+                  <p>Question 9.....</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="row marg-bot">
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group answer">
+                <button class="secondary hollow button">Answer 9.....</button>
+                <button class="secondary hollow button">Answer 9.....</button>
+              </div>
+            </div>
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group">
+                <button class="secondary hollow button">Answer 9.....</button>
+                <button class="secondary hollow button">Answer 9.....</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="row question">
+          <div class="large-8 medium-8 columns">
+            <h2>Question</h2>
+
+            <div class="row">
+              <div class="large-12 columns">
+                  <p>Question 10.....</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="row marg-bot">
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group answer">
+                <button class="secondary hollow button">Answer 10.....</button>
+                <button class="secondary hollow button">Answer 10.....</button>
+              </div>
+            </div>
+            <div class="large-12 medium-12 columns">
+              <div class="expanded button-group">
+                <button class="secondary hollow button">Answer 10.....</button>
+                <button class="secondary hollow button">Answer 10.....</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
 
     <div class="row">
       <div class="large-3 medium-3 columns">
         <div class="button-group">
-          <button id="prev" class="expanded button radius">Previous</button>
+          <button id="slider-prev" class="expanded button radius">Previous</button>
         </div>
       </div>
       <div class="large-3 medium-3 columns">
         <div class="button-group">
-          <button id="next" class="expanded button radius">Next</button>
+          <button id="slider-next" class="expanded button radius">Next</button>
         </div>
       </div>
     </div>
 
-      
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>  
     <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/jquery-ui.min.js"></script>
+    <script src="js/vendor/jquery.bxslider.min.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>

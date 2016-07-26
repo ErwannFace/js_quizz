@@ -1,24 +1,27 @@
-$(".all .question").each(function(i) {
-    if (i != 0)
-        $(this).hide();
+var slider = $('.bxslider').bxSlider({
+	pagerCustom: '#bx-pager'
 });
 
-$("#next").click(function(){
-    if ($(".all .question:visible").next().length != 0)
-        $(".all .question:visible").next().show("slide").prev().hide("slide");
-    else {
-        $(".all .question:visible").hide("slide");
-        $(".all .question:first").show("slide");
-    }
-    return false;
+$('#slider-next').click(function(){
+  slider.goToNextSlide();
 });
 
-$("#prev").click(function(){
-    if ($(".all .question:visible").prev().length != 0)
-        $(".all .question:visible").prev().show("slide").next().hide("slide");
-    else {
-        $(".all .question:visible").hide("slide");
-        $(".all .question:last").show("slide");
-    }
-    return false;
+$('#slider-prev').click(function(){
+  slider.goToPrevSlide();
+});
+
+
+//#66ff66 = vert
+//#ff4d4d = rouge
+
+
+var inc = 0;
+
+$(".false").click(function () {
+    $(this).css({"background-color": "#ff4d4d", "color": "#000"});
+});
+
+$(".true").click(function () {
+    $(this).css({"background-color": "#66ff66", "color": "#000"});
+    inc ++;
 });

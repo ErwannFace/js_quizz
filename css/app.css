@@ -18,3 +18,6 @@ p {
 div.large-3.medium-3.columns {
 	padding: 0 !important;
 }
+.bx-wrapper .bx-viewport {
+	box-shadow: none !important;
+}
