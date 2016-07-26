@@ -85,3 +85,7 @@ button:hover {
 	background-color: #ff99e9;
 	color: #003939;
 }
+
+.lastBtn {
+	text-align: center;
+}

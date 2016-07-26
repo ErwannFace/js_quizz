@@ -30,12 +30,25 @@ $(".answers").click(function(){
 		$(this).css("background-color","#006600");
 		$(this).css("color","white");
 		score ++;
-
 	}
+
 	else {
 		$(this).css("background-color","#b30000");
 		$(this).css("color","white");
 	}
+});
+
+//le score ne s'incrémente pas en dehors de mon if ?!
+$(".displayResult").append(score + " points");
+
+//en fait, ça marche pas comme prévu... dsl
+$(".startOver").click(function(){
+	score = 0;
+	$(".answers").css("background-color", "#e6ffff");
+	$("p", "div").css("color","#333");
+	$("#quest11").css("display","none");
+	$("#quest1").css("display","block");
+
 })
 
 });
