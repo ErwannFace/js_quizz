@@ -36,7 +36,6 @@ section > p {
 
 .questions {
 	height: 50vh;
-	margin-bottom: 15vh;
 }
 
 #quest1 {
@@ -45,10 +44,6 @@ section > p {
 
 section {
 	display: none;
-}
-
-section:first-child {
-	display: block;
 }
 
 
