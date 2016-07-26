@@ -1,0 +1,55 @@
+.questionnaire {
+	background-color: #FFF2ED;
+}
+
+
+section {
+	height: 500px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 70px;
+	font-weight: bold;
+	font-size: 80px;
+}
+
+.question {
+	margin-bottom: 40px;
+	font-size: 30px;
+}
+
+
+
+.zoneReponses {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.reponse {
+	background-color: rgba(139, 144, 159,0.9);
+	padding-top: 7px;
+	margin-top: 10px;
+	border: 1px solid black;
+	border-radius: 10%;
+}
+
+p {
+	font-size: 25px;
+}
+
+.boutonPrecedent{
+	font-size: 18px;
+	margin-top: 10px;
+	background-color: #363E57;
+}
+
+.boutonSuivant{
+	font-size: 18px;
+	margin-top: 10px;
+	float: right;
+	background-color: #363E57;
+}
+
+
+
