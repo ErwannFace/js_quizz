@@ -89,4 +89,10 @@ function ReturnQ(){
 	pos--;
 	RendreQuestion();
 }
+
+
+
+
+
+
 window.addEventListener("load", RendreQuestion, false);
