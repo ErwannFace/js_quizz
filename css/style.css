@@ -1,27 +1,42 @@
-h1,h2{font-family: 'Lobster', cursive;}
+body{
+	background-image: url('../img/bg-noise.jpg');
+	background-repeat: repeat;
+	width : 100%;
+	height:auto;
+	padding-top: 8%;
+}
+
+h1{font-family: 'Lobster', cursive; color: #fff;}
+h2{font-family: 'Lobster', cursive; color: rgb(218,170,0);}
 
 .question{
-	padding :20px;
+	padding :10px 0 10px 30px;
 	background-color:rgb(55,55,55);
 	color: #fff;
 	background-image: url("../img/shapes.png");
 	background-repeat: no-repeat;
 	background-position: 90% center;
+	font-size: 28px;
 	
 }
 .reponseOne, .reponseTwo, .reponseThree, .reponseFour {
-border : 1px solid rgb(213,213,213); height : 60px;
-padding:20px; font-size: 24px; cursor: pointer; line-height:20px;
+	background-color:  rgb(213,213,213);
+border : 1px solid rgb(55,55,55); height : 80px;
+padding:20px; font-size: 24px; cursor: pointer; line-height:40px;
+}
+
+.reponseOne:hover, .reponseTwo:hover, .reponseThree:hover, .reponseFour:hover {
+	background-color:  #fff;
 }
 
 button {
-width : 40%; height : 40px; margin : 20px 0 0 0;
+width : 40%; height : 50px; margin : 20px 0 0 0;
 }
 
 .btn-primary {
     color: #fff;
     font-family: ;
-    font-size: 18px;
+    font-size: 1em;
     background-color: #337ab7;
     border-color: #2e6da4;
 }

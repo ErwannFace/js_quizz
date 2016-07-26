@@ -17,7 +17,7 @@
         ];
 
 var activeQuestion = 0;*/
-var question = "Question 1: c'est qui qui quoi?";
+var question = "1: c'est qui qui quoi?";
 var options = ["Rien","Quoi quoi","Albert Einstein!","Hum"];
 var bingo = "Albert Einstein";
 
@@ -36,7 +36,7 @@ var bingo = "Albert Einstein";
    }
    else{alert('heyhey');}
  
-        
+      //https://www.youtube.com/watch?v=d_UuOVhuCF8  
   
 
     
