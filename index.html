@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="app/css/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="app/css/styles.css">
 </head>
 <body>
     <div class="container">
@@ -11,19 +12,21 @@
             <div  class="center-block box col-md-12">
                 <h1 id="title" class="Title col-md-12 text-center">WELCOME TO MY QUIZZ</h1>
                 <h2 class="sub_title col-md-12 text-center">Question</h2>
-                <p class="question col-md-6 center-block">la question</p>
+                <p class="question col-md-12 center-block text-center">la question</p>
                 <div id="container" class="box_question col-md-12">
-                    <div id="answer" class="b answer col-md-6" onclick="addclass(this)">Réponse 1</div>
+                    <div id="answer" class="b answer col-md-6 text-center" onclick="addclass(this)">Réponse 1</div>
 
-                    <div id="answer" class="b answer col-md-6" onclick="addclass(this)">Réponse 2</div>
+                    <div id="answer" class="b answer col-md-6 text-center" onclick="addclass(this)">Réponse 2</div>
 
-                    <div id="answer" class="b answer col-md-6" onclick="addclass(this)">Réponse 3</div>
+                    <div id="answer" class="b answer col-md-6 text-center" onclick="addclass(this)">Réponse 3</div>
 
-                    <div id="answer" class="bg answer col-md-6" onclick="addclass(this)">Réponse 4</div>
+                    <div id="answer" class="bg answer col-md-6 text-center" onclick="addclass(this)">Réponse 4</div>
                 </div>
             </div>
-            <button class="" onclick="reveal()">CHECK YOUR ANSWER</button>
-            <a href="#" class="btn btn-primary btn-lg disabled" role="button">Next</a>
+            <div id="bottom" class="col-md-12 center-block">
+            <div class="checker col-md-2 col-md-offset-5 text-center" onclick="reveal()">CHECK YOUR ANSWER</div>
+            <div id="button" class="btn btn disabled col-md-2 col-md-offset-10">Next</div>
+            </div>
         </div>
     </div>
     <script src="app/js/script.js"></script>
