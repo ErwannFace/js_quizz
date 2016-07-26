@@ -1,5 +1,13 @@
+.questionnaire2 {
+	background-color: #FFF2ED;
+}
+.questionnaire1 {
+	background-color: #FFF2ED;
+}
+
 .questionnaire {
 	background-color: #FFF2ED;
+	display: none;
 }
 
 

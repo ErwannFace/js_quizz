@@ -1,3 +1,5 @@
+/*Travaillé avec Lise*/
+
 //Pour afficher la question suivante
 	function questionSuivante1() {
 		document.getElementById("question1").style.display="none";

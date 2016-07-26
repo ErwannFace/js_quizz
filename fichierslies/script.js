@@ -1,40 +1,138 @@
 
-var score = 0;
-var multi = 1;
+/*
+var faux = document.getElementsByClassName('erreur');
+var vrai = document.getElementsByClassName('bon');
+var reponse = document.getElementsByClassName('reponse');
 
-/*//fontion + 1 en cliquant sur le cookie
-function clicker() {
-    score = score + multi
-    document.getElementById("score").innerHTML = score;
+function couleur() {
+    for(var i=0;i<reponse.length;i++) 
+        if(i=document.getElementsByClassName('erreur')){
+          reponse[i].style.backgroundColor = "red";
+        }
+        else {
+          reponse[i].style.backgroundColor = "green";
+        }
+  
 }*/
 
+function couleur() {
+var faux = document.getElementsByClassName('erreur');
+var vrai = document.getElementsByClassName('bon');
 
-//fontion ajout de point + le multiplicateur
-function clicker() {
-    score = score + multi
-    document.getElementById("score").innerHTML = "Points " + score;
-} 
+  for(var i=0;i<faux.length;i++){
+    faux[i].style.backgroundColor = "red";
+  }
+  for(var i=0;i<vrai.length;i++){
+    vrai[i].style.backgroundColor = "green";
+  }
+}
 
+function couleur2() {
+var faux = document.getElementsByClassName('erreur2');
+var vrai = document.getElementsByClassName('bon2');
 
+  for(var i=0;i<faux.length;i++){
+    faux[i].style.backgroundColor = "red";
+  }
+  for(var i=0;i<vrai.length;i++){
+    vrai[i].style.backgroundColor = "green";
+  }
+}
 
-//fontion * 2 bouton multiplicateur, si assez de point pour le payer
-function incrementer() {
-    var prix = 5 * multi;
-    if (score >= prix) {
-        multi = multi * 2;
-        score = score - prix;
-    document.getElementById("multiplicateur").innerHTML = "Multiplicateur x" + multi;
-    document.getElementById("prix").innerHTML= "Prix " + 5 * multi;
-    document.getElementById("score").innerHTML = "Points " + score;
-    }
+function couleur3() {
+var faux = document.getElementsByClassName('erreur3');
+var vrai = document.getElementsByClassName('bon3');
 
-    else {
-        alert("Va t'acheter de l'argent !");
-    }
+  for(var i=0;i<faux.length;i++){
+    faux[i].style.backgroundColor = "red";
+  }
+  for(var i=0;i<vrai.length;i++){
+    vrai[i].style.backgroundColor = "green";
+  }
+}
+
+function couleur4() {
+var faux = document.getElementsByClassName('erreur4');
+var vrai = document.getElementsByClassName('bon4');
+
+  for(var i=0;i<faux.length;i++){
+    faux[i].style.backgroundColor = "red";
+  }
+  for(var i=0;i<vrai.length;i++){
+    vrai[i].style.backgroundColor = "green";
+  }
+}
+
+function couleur5() {
+var faux = document.getElementsByClassName('erreur5');
+var vrai = document.getElementsByClassName('bon5');
+
+  for(var i=0;i<faux.length;i++){
+    faux[i].style.backgroundColor = "red";
+  }
+  for(var i=0;i<vrai.length;i++){
+    vrai[i].style.backgroundColor = "green";
+  }
+}
+
+function couleur6() {
+var faux = document.getElementsByClassName('erreur6');
+var vrai = document.getElementsByClassName('bon6');
+
+  for(var i=0;i<faux.length;i++){
+    faux[i].style.backgroundColor = "red";
+  }
+  for(var i=0;i<vrai.length;i++){
+    vrai[i].style.backgroundColor = "green";
+  }
+}
+
+function couleur7() {
+var faux = document.getElementsByClassName('erreur7');
+var vrai = document.getElementsByClassName('bon7');
+
+  for(var i=0;i<faux.length;i++){
+    faux[i].style.backgroundColor = "red";
+  }
+  for(var i=0;i<vrai.length;i++){
+    vrai[i].style.backgroundColor = "green";
+  }
+}
+
+function couleur8() {
+var faux = document.getElementsByClassName('erreur8');
+var vrai = document.getElementsByClassName('bon8');
+
+  for(var i=0;i<faux.length;i++){
+    faux[i].style.backgroundColor = "red";
+  }
+  for(var i=0;i<vrai.length;i++){
+    vrai[i].style.backgroundColor = "green";
+  }
 }
 
 
+function couleur9() {
+var faux = document.getElementsByClassName('erreur9');
+var vrai = document.getElementsByClassName('bon9');
 
+  for(var i=0;i<faux.length;i++){
+    faux[i].style.backgroundColor = "red";
+  }
+  for(var i=0;i<vrai.length;i++){
+    vrai[i].style.backgroundColor = "green";
+  }
+}
 
+function couleur10() {
+var faux = document.getElementsByClassName('erreur10');
+var vrai = document.getElementsByClassName('bon10');
 
-
+  for(var i=0;i<faux.length;i++){
+    faux[i].style.backgroundColor = "red";
+  }
+  for(var i=0;i<vrai.length;i++){
+    vrai[i].style.backgroundColor = "green";
+    alert("BRAVO")
+  }
+}
