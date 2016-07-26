@@ -19,7 +19,7 @@ function addclass(div){
 }
 
 //
-//TODO: []  Fonction qui va révéler la bonne/mauvaise réponse
+//TODO: [x]  Fonction qui va révéler la bonne/mauvaise réponse
 //
 
 function reveal(){
@@ -30,16 +30,35 @@ function reveal(){
         }
         else{
         j.classList.add("bg-success");
+        next_question();
     }
     //}
 }
 //
 //TODO: []  FONCTION QUI VA PERMETTRE L'ACCÈS À LA QUESTION SUIVANTE
 //
+
+function next_question(){
+    var status_button = document.getElementsByClassName("btn")[0];
+    if(status_button.classList.contains("disabled")){
+        status_button.classList.remove("disabled");
+    }
+}
 //
 //FUTURE: [] STOCKER LES QUESTIONS DANS UN TABLEAU
 //
-var tab_questions = [];
+var tab_questions = [
+    "Au Moyen-Âge, comment appelait-on les villages fortifiés ?",
+    "À quel réalisateur français doit-on le film 'Banzaï' ?",
+    "Dans le langage familier, comment appelle-t-on la dent du petit enfant ?",
+    "Dans quel pays se trouve le circuit automobile de Zandvoort ?",
+    "Dans quelle ville sont situées les plus célèbres falaises de France ?",
+    "Qui a inventé les transports en communs modernes ?",
+    "Quel laboratoire a inventé sans le vouloir le viagra ?",
+    "Les vins rouges peuvent se classer en 3 catégories en fonction de leur consistance : quelles sont-elles ?",
+    "En France, dans quelle ville se trouve l'adresse du père Noël ?",
+    "Comment s'appelle le petit du zèbre ?"
+];
 //
 //FUTURE: [] STOCKER LES REPONSES POUR CHAQUE QUESTION DANS UN TABEAU AVEC LEUR VALEUR
 //
