@@ -1,17 +1,22 @@
-var i = 1;
-var j = 2;
-var answer = false;
-var score = 0;
-var progress = 0;
+//var for display qst
+var i = 1; //ongoing question
+var j = 2; //next question
+
+
+var answer = false; //true: you answered the question
+var score = 0; //how many right answer you have
+var click_previous = 0; //count the number of time you click previous
 
 //button next: hide ongoing question and show the next one.
 $("#next").click(function () {
-    if (j < 12) {
+    if (j < 12 && answer === true) {
         $("#" + i).hide();
         $("#" + j).show();
         i++;
         j++;
-        answer = false;
+        //you can only answer a question if
+        if (click_previous == 0) {answer = false}
+        else {click_previous--;}
         affich_progres();
     }
     //Show score when you passed all the questions
@@ -28,6 +33,7 @@ $("#previous").click(function () {
         $("#" + i).show();
         $("#" + j).hide();
         answer = true;
+        click_previous++;
         affich_progres();
     }
 });
@@ -50,5 +56,10 @@ function answer_false(target) {
 };
 
 //Display functions 
-function affich_progres() {$("p").text("Question " + i + "/10");};
+function affich_progres() {
+    if (i < 11) {
+        $("p").text("Question " + i + "/10");
+    }
+};
+
 function affich_score() {$("#" + i).text("Votre score: " + score + "/10");};
