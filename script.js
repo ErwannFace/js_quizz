@@ -14,9 +14,10 @@ $("#next").click(function () {
         $("#" + j).show();
         i++;
         j++;
-        //you can only answer a question if
+        //you can only answer a question if click_previous equals zero
         if (click_previous == 0) {answer = false}
         else {click_previous--;}
+        
         affich_progres();
     }
     //Show score when you passed all the questions
@@ -34,6 +35,7 @@ $("#previous").click(function () {
         $("#" + j).hide();
         answer = true;
         click_previous++;
+        //show progress
         affich_progres();
     }
 });
