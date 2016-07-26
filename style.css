@@ -11,7 +11,7 @@ body {
 h1 {
 	font-weight: 900;
 	font-size: 50px; 
-	margin-bottom: 15vh;
+	margin-bottom: 10vh;
 	margin-top: 0;	
 	background-color: #450036;
 	padding: 5vh;
@@ -39,6 +39,18 @@ section > p {
 	margin-bottom: 15vh;
 }
 
+#quest1 {
+	display: block;
+}
+
+section {
+	display: none;
+}
+
+section:first-child {
+	display: block;
+}
+
 
 .answers:hover {
 	background-color: #003939;
@@ -63,6 +75,7 @@ section > p {
 div div p {
 	font-weight: bold;
 }
+
 
 button {
 	background-color: #7f286c;
