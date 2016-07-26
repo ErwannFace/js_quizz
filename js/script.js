@@ -49,6 +49,7 @@ function RendreQuestion(){
 	test.innerHTML +="<button id='reponses' value='4'> "+r4+"<br><br>";
 	
 }
+
 function checkAnswer(){
 
 		console.log(checkAnswer);
@@ -68,7 +69,7 @@ function ReturnQ(){
 	console.log(ReturnQ);
 	reponses = document.getElementById("reponses");
 	for (var i=0; i>reponses.length; i++){
-		if (reponses[i].selected){
+		if (reponses[i].checked){
 			reponse = reponses[i].value;
 		}
 	}
