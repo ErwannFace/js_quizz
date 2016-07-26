@@ -1,5 +1,5 @@
 $(function() {
-      // obturation des réponses
+      // obturation de toues les réponses
       $('.reponse').hide();
       }); 
 
@@ -28,12 +28,44 @@ $('a').hover(
           function() { 
             $('.reponse').show();
             if ($(':radio[id="r3"]:checked').val()) {
+              
               $('#img1').attr('src', 'right.png'); 
               $('#reponse1').css('color', 'green');
             }  
+
             else {
               $('#img1').attr('src', 'wrong.png');
               $('#reponse1').css('color', 'red');
             }
+            
+            if ($(':radio[id="r6"]:checked').val() || $(':radio[id="r8"]:checked').val()) {
+
+            $('#img2').attr('src', 'right.png');
+            $('#reponse2').css('color', 'green');
+
+            }
+
+           else {
+
+              $('#img2').attr('src', 'wrong.png');
+              $('#reponse2').css('color', 'red');
+
+            } 
+
+            if ($(':checkbox[id="r9"]:checked').val() && $(':checkbox[id="r11"]:checked').val() 
+              && $(':checkbox[id="r12"]:checked').val() && $('#r10').prop('checked', false)) {
+
+            $('#img3').attr('src', 'right.png');
+            $('#reponse3').css('color', 'green');
+
+            }
+
+           else {
+
+              $('#img3').attr('src', 'wrong.png');
+              $('#reponse3').css('color', 'red');
+
+            }
           }
         );       
+
