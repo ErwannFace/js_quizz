@@ -1,4 +1,4 @@
-/*Link tutoriel : https://www.youtube.com/watch?v=d_UuOVhuCF8*/
+
 /*Initialisation des différentes variables*/
 
 var pos = 0;
@@ -59,7 +59,7 @@ function RendreQuestion(){
 	test.innerHTML +="<input type='radio' name='reponses' value='4'> "+r4+"<br><br>";
 	
 }
-
+/*Validation de la réponse*/
 function checkAnswer(){
 
 		console.log(checkAnswer);
@@ -75,6 +75,7 @@ function checkAnswer(){
 	pos++;
 	RendreQuestion();
 }
+/*Execution du bouton retour */
 function ReturnQ(){
 	console.log(ReturnQ);
 	reponses = document.getElementsByName("reponses");
@@ -89,10 +90,5 @@ function ReturnQ(){
 	pos--;
 	RendreQuestion();
 }
-
-
-
-
-
 
 window.addEventListener("load", RendreQuestion, false);
