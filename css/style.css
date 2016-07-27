@@ -8,6 +8,7 @@ body{
 
 h1{font-family: 'Lobster', cursive; color: #fff;}
 h2{font-family: 'Lobster', cursive; color: rgb(218,170,0);}
+p{font-family: 'Lobster', cursive; color: #fff;font-size: 20px}
 
 .question{
 	padding :10px 0 10px 30px;
