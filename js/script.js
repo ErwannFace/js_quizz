@@ -28,7 +28,8 @@ function nextQuestion() {
     });
 }
 
-$("#next").click(function () {
+// inutile depuis l'ajout du timeout
+/*$("#next").click(function () {
     $("#Q" + next + "").css({
         "display": "none"
     });
@@ -48,7 +49,7 @@ $("#last").click(function () {
     $("#Q" + next + "").css({
         "display": "block"
     });
-});
+});*/
 
 $(".ans-good").click(function () {
     score++;
