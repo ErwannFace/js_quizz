@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/bootstrap-3.3.6-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <!--<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>-->
+    <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+	                   <title>ScifiQuizz</title>
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div id="quiz" class="col-lg-8">
+        <h1>Sci-Fi Quizz</h1>
+
+        <h2 id="question" class="headline-secondary--grouped"></h2>
+        <h3 id="score"></h3>
+
+     <div id="answers">
+        <table class="table table-bordered"> 
+          <tbody>
+            <tr>
+              <td><p id="choice0"></p>
+                <button id="guess0" class="btn--default">Select Answer</button></td>
+              <td><p id="choice1"></p>
+                <button id="guess1" class="btn--default">Select Answer</button></td>
+            </tr>
+            <tr>
+              <td><p id="choice2"></p>
+                <button id="guess2" class="btn--default">Select Answer</button></td>
+              <td><p id="choice3"></p>
+                <button id="guess3" class="btn--default">Select Answer</button></td>
+            </tr>
+          </tbody> 
+        </table>
+
+        <h2 id="progress">Question x of y</h2>
+
+     </div>
+    </div>    
+</div>
+
+	<script src="script.js"></script> 
+	<script src="jquery.js"></script> 
+    <script src="bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
