@@ -1,0 +1,22 @@
+table, td {
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px;
+}
+
+div {
+    display: none;
+}
+
+.start {
+    display: block;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
