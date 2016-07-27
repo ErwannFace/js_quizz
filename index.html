@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="text-center">Quizz</h1>
+  <div id="quest1">
+    <center><img src="images/finaleuro.jpg"></center>
+      <h3>Question 1:</h3>
+       <form name="quiz"> 
+         <h5>Quel équipe a gagné l'euro 2016 ?</h5>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 boutton">
+                     <button type='button' class="vrai"><img src="images/drapeauportugal.jpg" class="icon">Portugal</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <button type='button'class="fausse"><img src="images/drapeaubresil.jpg" class="icon">Brésil</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/drapeauespagne.png" class="icon">Espagne</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/drapeaukraine.gif" class="icon">Ukraine</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+            <div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4 bouton">
+                <button type='button' id="nextOne"> Suivant </button>
+        </div>
+        </div>
+
+  </div>
+
+
+
+  <div id="quest2" style="display:none; ">
+      <center><img src="images/Euro2016.png"></center>
+      <h3>Question 2:</h3>
+       <form name="quiz"> 
+         <h5>Contre qui a gagné le Portugal lors de la Final ?</h5>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/drapeauitalie.jpg" class="icon">Italie</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/drapeaupaysdg.png" class="icon">Pays de Galles</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <button type='button' class="vrai"><img src="images/drapeaufrance.jpg" class="icon">France</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <button type='button'  class="fausse"><img src="images/drapeauturquie.gif" class="icon">Turquie</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="prec1"> Précèdent </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next2"> Suivant </button>
+        </div>
+        </div>
+
+
+<div id="quest3" style="display:none;">
+      <center><img src="images/games2.jpg"></center>
+      <h3>Question 3:</h3>
+       <form name="quiz"> 
+          <h5>Quel jeux sur mobile a fait un carton dans le monde entier ?</h5>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/pikachu.jpg" class="icon">Pikachu</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="vrai"><img src="images/pokemon-go-169.jpg" class="icon">Pokémon Go</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/GTAV.png" class="icon">GTA V</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/games.jpg" class="icon">Games of thrones</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button  type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="prec2"> Précèdent </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next3" > Suivant </button>
+        </div>
+
+  </div>
+
+
+<div id="quest4" style="display:none;">
+      <center><img src="images/joconde.jpg"></center>
+      <h3>Questionn 4:</h3>
+       <form name="quiz">  
+          <h5>Qui a peint la Joconde ?</h5>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/Picasso.jpeg" class="icon">Pablo Picasso</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/guillaumemusso.jpg" class="icon">Guillaume Musso</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="vrai"><img src="images/leonardevinci.jpg" class="icon">Léonard de vinci</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/niska.jpeg" class="icon">Niska</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="prec3"> Précèdent </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next4"> Suivant </button>
+        </div>
+
+  </div>
+
+
+<div id="quest5" style="display:none;">
+      <center><img src="images/lapuissance.jpg"></center>
+      <h3>Question 5:</h3>
+       <form name="quiz"> 
+          <h5>Qui chante 'La puissance'?</h5>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="vrai"><img src="images/rohff.jpg" class="icon">Rohff</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/booba.jpg" class="icon">Booba</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/jul.jpeg" class="icon">Jul</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse"><img src="images/kaaris.jpeg" class="icon">Kaaris</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="prec4"> Précèdent </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next5" > Suivant </button>
+        </div>
+  </div>
+
+
+<div id="quest6" style="display:none;">
+      <center><img src="images/guerre2.jpg"></center>
+      <h3>Question 6:</h3>
+       <form name="quiz"> 
+          <h5>Quand à commencé la Seconde Guerre Mondiale ?</h5>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">25 Septembre 1564</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">6 Aoùt 1967</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">9 Mai 1945</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="vrai">1er Septembre 1939</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="prec5" > Précèdent </button>
+            
+                <button  type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next6" > Suivant </button>
+        </div>
+  </div>
+
+
+<div id="quest7" style="display:none;">
+      <center><img src="images/guerre.jpg"></center>
+      <h3>Question 7:</h3>
+       <form name="quiz"> 
+          <h5>Quand a fini la Seconde Guerre Mondiale ?</h5>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">15 Novembre 2000</button>             </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">3 Décembre 1987</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="vrai">2 Septembre 1945</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">23 Février 2014</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="prec6"> Précèdent </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next7" > Suivant </button>
+        </div>
+
+  </div>
+
+
+<div id="quest8" style="display:none;">
+      <center><img src="images/drapeauportugal.jpg"></center>
+      <h3>Question 8:</h3>
+       <form name="quiz"> 
+          <h5>Quelle es la capitale du Portugal ?</h5>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">Paris</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">Porto</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">Fatima</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="vrai">Lisbonne</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="prec7"> Précèdent </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next8" > Suivant </button>
+        </div>
+
+  </div>
+
+
+<div id="quest9" style="display:none;">
+<center><img src="images/machinealaver.jpg"></center>
+      <h3>Question 9:</h3>
+       <form name="quiz"> 
+         <h5>Qui à inventé la machine à laver ?</h5>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">Eduard.Jacobs</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">Nathaniel Briggs</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="vrai">Jacob Christian Scĥäffer</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">Alfred Conord</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="prec8"> Précèdent </button>
+            
+                <button type='button'class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next9"> Suivant </button>
+        </div>
+
+  </div>
+
+
+<div id="quest10" style="display:none;">
+<center><img src="images/locomotive.jpg"></center>
+      <h3>Question 10:</h3>
+       <form name="quiz"> 
+          <h5>Qui à inventé la Locomotive ?
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="vrai">Richard Trevithick</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">Georges Stephenson</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">Marc Seguin</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="fausse">Jean-Jules Dupont-de-Marinon</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4 bouton"  id="prec9"> Précèdent </button>
+        </div>
+
+  </div>
+
+
+ <script type="text/javascript" src="js/Quizz.js"  >
+ </script>
+
+
+</body>
+</html>
