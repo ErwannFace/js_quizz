@@ -31,6 +31,10 @@ $(".false").click(function () {
     $(this).css({"background-color": "#ff4d4d", "color": "#000", "font-weight": "400"});
 });
 
+$(".false-spe").click(function () {
+    $(this).css({"background-color": "#ff4d4d", "color": "#000", "font-weight": "400"}).append(" : Non, mais j'ai un prénom sinon... !");
+});
+
 $(".true").click(function () {
     $(this).css({"background-color": "#66ff66", "color": "#000", "font-weight": "400"}).append(" : Félicitation !");
 });
