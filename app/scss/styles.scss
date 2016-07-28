@@ -1,0 +1,53 @@
+//Import
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+//
+//color
+//
+$snow: #FFF;
+$dark-red: #400808;
+$red: #FF1F21;
+$orange-sanguine: #7F2D14;
+$orange:    #e95325;
+$sky:       #fff;
+$grey:      #333;
+
+//
+// preset button
+//
+
+
+//
+//font
+//
+$font-primary: 'Roboto', sans-serif;
+
+
+//
+//BACKGROUND
+//
+body {
+    font: 14px $font-primary;
+    background-color: $sky;
+}
+
+//
+//buttons
+//
+.checker {
+    font-weight: 400;
+    color: $snow;
+    padding: 12px 10px;
+    background-color: $red;
+    border-bottom: solid 5px $dark-red;
+    border-radius: 5px;
+}
+
+.btn {
+    font-weight: 400;
+    color:  $snow;
+    display: block;
+    background-color: $orange;
+    border-bottom: solid 4px $orange-sanguine;
+    font: $font-primary;
+}

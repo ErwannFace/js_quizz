@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  font: 14px "Roboto", sans-serif;
+  background-color: #fff; }
+
+.checker {
+  font-weight: 400;
+  color: #FFF;
+  padding: 12px 10px;
+  background-color: #FF1F21;
+  border-bottom: solid 5px #400808;
+  border-radius: 5px; }
+
+.btn {
+  font-weight: 400;
+  color: #FFF;
+  display: block;
+  background-color: #e95325;
+  border-bottom: solid 4px #7F2D14;
+  font: "Roboto", sans-serif; }
+
+/*# sourceMappingURL=styles.css.map */
