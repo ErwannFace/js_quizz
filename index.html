@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>QUIZZ CHALLENGE 8</title>
+    <link rel="stylesheet" type="text/css" href="fichierslies/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="fichierslies/style.css"/>
+    
+</head>
+
+	<body>
+<div class="container-fluid questionnaire2">
+	<h1>MON QUIZZ</h1>
+	
+	<!--QUESTION 1 -->
+	<section id="question1" class="questionnaire1">
+		<h3 class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 question">Question n°1 :Quelle était la couleur du cheval blanc D'Henri 4?</h3>
+	<!--ZONE REPONSE -->
+			<article class="col-md-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-xs-10 zoneReponses">
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur" onclick="couleur()"><p>Marron</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur"onclick="couleur()"><p>Chevelu</p></div>
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse bon"onclick="couleur()"><p>Blanc</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur"onclick="couleur()"><p>Noir</p></div>
+			</article>
+
+	<!--ZONE BOUTON -->
+			<article class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 zoneReponse">
+			<button type="button" class="btn btn-primary col-md-3 col-sm-3 col-xs-3 boutonPrecedent">Precedente</button>
+			<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-xs-3 boutonSuivant" onclick="questionSuivante1()">Suivante</button>
+			</article>
+		</div>
+	</section>
+
+
+	<!--QUESTION 2 -->
+	<section id="question2" class="questionnaire">
+		<h3 class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 question">Question n°2 :Justine Bieber est sortie avec Selena Gomez, mais qui sortait avec Selena Gomez?</h3>
+	<!--ZONE REPONSE -->
+			<article class="col-md-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-xs-10 zoneReponses">
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse bon2" onclick="couleur2()"><p>Justin Bieber</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur2" onclick="couleur2()"><p>Justin Timberlake</p></div>
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur2" onclick="couleur2()"><p>Mon petit canard en sucre</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur2" onclick="couleur2()"><p>Bah personne</p></div>
+			</article>
+
+	<!--ZONE BOUTON -->
+			<article class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 zoneReponse">
+			<button type="button" class="btn btn-primary col-md-3 col-sm-3 col-xs-3 boutonPrecedent"onclick="questionPrecedente2()">Precedente</button>
+			<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-xs-3 boutonSuivant" onclick="questionSuivante2()">Suivante</button>
+			</article>
+		</div>
+	</section>
+
+<!--QUESTION 3 -->
+	<section id="question3" class="questionnaire">
+		<h3 class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 question">Question n°3 :Qu'est ce que TF1?</h3>
+	<!--ZONE REPONSE -->
+			<article class="col-md-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-xs-10 zoneReponses">
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur3" onclick="couleur3()"><p>Une boisson gazeuse</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur3" onclick="couleur3()"><p>Un syndrome</p></div>
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse bon3" onclick="couleur3()"><p>Une chaine Télé</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur3" onclick="couleur3()"><p>Ma soeur</p></div>
+			</article>
+
+	<!--ZONE BOUTON -->
+			<article class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 zoneReponse">
+			<button type="button" class="btn btn-primary col-md-3 col-sm-3 col-xs-3 boutonPrecedent"onclick="questionPrecedente3()">Precedente</button>
+			<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-xs-3 boutonSuivant" onclick="questionSuivante3()">Suivante</button>
+			</article>
+		</div>
+	</section>
+
+
+<!--QUESTION 4 -->
+	<section id="question4" class="questionnaire">
+		<h3 class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 question">Question n°4 :Comment s'appelle la meilleure amie d'Harry Potter?</h3>
+	<!--ZONE REPONSE -->
+			<article class="col-md-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-xs-10 zoneReponses">
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse bon4" onclick="couleur4()"><p>Hermione</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur4" onclick="couleur4()"><p>Hermine</p></div>
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur4" onclick="couleur4()"><p>Sandra</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur4" onclick="couleur4()"><p>Stockholme</p></div>
+			</article>
+
+	<!--ZONE BOUTON -->
+			<article class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 zoneReponse">
+			<button type="button" class="btn btn-primary col-md-3 col-sm-3 col-xs-3 boutonPrecedent"onclick="questionPrecedente4()">Precedente</button>
+			<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-xs-3 boutonSuivant"onclick="questionSuivante4()">Suivante</button>
+			</article>
+		</div>
+	</section>
+
+
+<!--QUESTION 5 -->
+	<section id="question5" class="questionnaire">
+		<h3 class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 question">Question n°5 :Combien y'a t'il de télétubies?</h3>
+	<!--ZONE REPONSE -->
+			<article class="col-md-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-xs-10 zoneReponses">
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur5"onclick="couleur5()"><p>3</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur5"onclick="couleur5()"><p>25</p></div>
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse bon5"onclick="couleur5()"><p>5</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur5"onclick="couleur5()"><p>11</p></div>
+			</article>
+
+	<!--ZONE BOUTON -->
+			<article class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 zoneReponse">
+			<button type="button" class="btn btn-primary col-md-3 col-sm-3 col-xs-3 boutonPrecedent"onclick="questionPrecedente5()">Precedente</button>
+			<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-xs-3 boutonSuivant" onclick="questionSuivante5()">Suivante</button>
+			</article>
+		</div>
+	</section>
+
+<!--QUESTION 6 -->
+	<section id="question6" class="questionnaire">
+		<h3 class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 question">Question n°6 :Mon frère et ton frère, qui suis-je pour toi?</h3>
+	<!--ZONE REPONSE -->
+			<article class="col-md-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-xs-10 zoneReponses">
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur6" onclick="couleur6()"><p>Ton ailleul Alfred</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur6" onclick="couleur6()"><p>Ton grand-père</p></div>
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur6" onclick="couleur6()"><p>Ta mère</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse bon6" onclick="couleur6()"><p>Ta soeur
+</p></div>
+			</article>
+
+	<!--ZONE BOUTON -->
+			<article class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 zoneReponse">
+			<button type="button" class="btn btn-primary col-md-3 col-sm-3 col-xs-3 boutonPrecedent"onclick="questionPrecedente6()">Precedente</button>
+			<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-xs-3 boutonSuivant"onclick="questionSuivante6()">Suivante</button>
+			</article>
+		</div>
+	</section>
+
+	<!--QUESTION 7 -->
+	<section id="question7" class="questionnaire">
+		<h3 class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 question">Question n°7 :Qui est Dora l'exploratrice?</h3>
+	<!--ZONE REPONSE -->
+			<article class="col-md-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-xs-10 zoneReponses">
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur7" onclick="couleur7()"><p>Ta meilleure amie</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse bon7" onclick="couleur7()"><p>La meilleure amie de Diego et Babouche</p></div>
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur7" onclick="couleur7()"><p>Personne, c'est un mythe</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur7" onclick="couleur7()"><p>La soeur de Jesus
+</p></div>
+			</article>
+
+	<!--ZONE BOUTON -->
+			<article class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 zoneReponse">
+			<button type="button" class="btn btn-primary col-md-3 col-sm-3 col-xs-3 boutonPrecedent"onclick="questionPrecedente7()">Precedente</button>
+			<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-xs-3 boutonSuivant"onclick="questionSuivante7()">Suivante</button>
+			</article>
+		</div>
+	</section>
+
+	<!--QUESTION 8 -->
+		<section id="question8" class="questionnaire">
+		<h3 class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 question">Question n°8 :Comment appelle-t'on plusieurs loups reunient?</h3>
+	<!--ZONE REPONSE -->
+			<article class="col-md-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-xs-10 zoneReponses">
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur8" onclick="couleur8()"><p>Un wolfband</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse bon8" onclick="couleur8()"><p>Une meute</p></div>
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur8" onclick="couleur8()"><p>Une non minorité</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur8" onclick="couleur8()"><p>Les 2b3</p></div>
+			</article>
+
+	<!--ZONE BOUTON -->
+			<article class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 zoneReponse">
+			<button type="button" class="btn btn-primary col-md-3 col-sm-3 col-xs-3 boutonPrecedent"onclick="questionPrecedente8()">Precedente</button>
+			<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-xs-3 boutonSuivant"onclick="questionSuivante8()">Suivante</button>
+			</article>
+		</div>
+	</section>
+
+		<!--QUESTION 9 -->
+	<section id="question9" class="questionnaire">
+		<h3 class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 question">Question n°9 :Quelle théorie explique les différentes espèces?</h3>
+	<!--ZONE REPONSE -->
+			<article class="col-md-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-xs-10 zoneReponses">
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse bon9" onclick="couleur9()"><p>Darwin</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur9" onclick="couleur9()"><p>Iceberg</p></div>
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur9" onclick="couleur9()"><p>Polochon</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur9" onclick="couleur9()"><p>Denver</p></div>
+			</article>
+
+	<!--ZONE BOUTON -->
+			<article class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 zoneReponse">
+			<button type="button" class="btn btn-primary col-md-3 col-sm-3 col-xs-3 boutonPrecedent"onclick="questionPrecedente9()">Precedente</button>
+			<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-xs-3 boutonSuivant"onclick="questionSuivante9()">Suivante</button>
+			</article>
+		</div>
+	</section>
+
+		<!--QUESTION 10 -->
+	<section id="question10" class="questionnaire">
+		<h3 class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 question">Question n°10 :Un intrus s'est sournoisement glissé dans chacune de ces questions, sera tu le deviner qui c'est?</h3>
+	<!--ZONE REPONSE -->
+			<article class="col-md-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-xs-10 zoneReponses">
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur10" onclick="couleur10()"><p>Un Le président</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse erreur10" onclick="couleur10()"><p>Doudou</p></div>
+				<div class="col-md-5 col-sm-5 col-xs-5 reponse erreur10" onclick="couleur10()"><p>Carlos</p></div>
+				<div class="col-md-offset-2 col-md-5 col-sm-5 col-xs-5 reponse bon10" onclick="couleur10()"><p>Antoine</p></div>
+			</article>
+
+	<!--ZONE BOUTON -->
+			<article class="col-md-offset-1 col-md-10 col-sm-10 col-xs-10 zoneReponse">
+			<button type="button" class="btn btn-primary col-md-3 col-sm-3 col-xs-3 boutonPrecedent"onclick="questionPrecedente10()">Precedente</button>
+			<button type="button" class="btn btn-primary col-md-3 col-md-offset-1 col-sm-3 col-xs-3 boutonSuivant"onclick="questionSuivante10()">Suivante</button>
+			</article>
+		</div>
+	</section>
+</div>
+
+
+
+		<script src="fichierslies/jquery-2.2.2.min.js"></script>
+    <script src="fichierslies/script.js"></script>
+    <script src="fichierslies/ChangerDeQuestion.js"></script>
+	
+	</body>
+	</html>
