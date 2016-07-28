@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <meta charset="UTF-8">
+	<link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="text-center">Welcome to my Quizz</h1>
+  <div id="question1">
+      <h3>Question1:</h3>
+       <form name="quizz"> 
+          <p>La capitale de la France?</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 button">
+                     <button type='button' class="bonne">Paris</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button'class="mauvaise">Rennes</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Lyon</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Nice</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+            <div class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4 bouton">
+                <button type='button' id="next1"> Next </button>
+        </div>
+        </div>
+
+  </div>
+
+
+
+  <div id="question2" style="display:none; ">
+      <h3>Question2:</h3>
+       <form name="quizz"> 
+        <p>La capitale de la France?</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <button type='button' class="mauvaise">Paris</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <button type='button' class="mauvaise">Rennes</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <button type='button' class="mauvaise">Lyon</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                     <button type='button'  class="bonne">Nice</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="pre1"> Previous </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next2"> Next </button>
+        </div>
+        </div>
+
+
+<div id="question3" style="display:none;">
+      <h3>Question3:</h3>
+       <form name="quizz"> 
+         <p>La capitale de la France?</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="bonne">Paris</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Rennes</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Lyon</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Nice</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button  type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="pre2"> Previous </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next3" > Next </button>
+        </div>
+
+  </div>
+
+
+<div id="question4"style="display:none;">
+      <h3>Question4:</h3>
+       <form name="quizz"> 
+        <p>La capitale de la France?</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Paris</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="bonne">Rennes</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button'class="mauvaise">Lyon</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Nice</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="pre3"> Previous </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next4"> Next </button>
+        </div>
+
+  </div>
+
+
+<div id="question5"style="display:none;">
+      <h3>Question5:</h3>
+       <form name="quizz"> 
+         <p>La capitale de la France?</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="bonne">Paris</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Rennes</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Lyon</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Nice</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="pre4"> Previous </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next5" > Next </button>
+        </div>
+  </div>
+
+
+<div id="question6" style="display:none;">
+      <h3>Question6:</h3>
+       <form name="quizz"> 
+         <p>La capitale de la France?</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Paris</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Rennes</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Lyon</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="bonne">Nice</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="pre5" > Previous </button>
+            
+                <button  type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next6" > Next </button>
+        </div>
+  </div>
+
+
+<div id="question7" style="display:none;">
+      <h3>Question7:</h3>
+       <form name="quizz"> 
+        <p>La capitale de la France?</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button'class="mauvaise">Paris</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Rennes</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="bonne">Lyon</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Nice</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="pre6"> Previous </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next7" > Next </button>
+        </div>
+
+  </div>
+
+
+<div id="question8" style="display:none;">
+      <h3>Question8:</h3>
+       <form name="quizz"> 
+         <p>La capitale de la France?</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Paris</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="bonne">Rennes</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Lyon</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Nice</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="pre7"> Previous </button>
+            
+                <button type='button' class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next8" > Next </button>
+        </div>
+
+  </div>
+
+
+<div id="question9" style="display:none;">
+      <h3>Question9:</h3>
+       <form name="quizz"> 
+         <p>La capitale de la France?</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Paris</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="bonne">Rennes</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button'class="mauvaise">Lyon</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Nice</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-1 col-lg-4 col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-4 col-xs-offset-1 col-xs-4 bouton"  id="pre8"> Previous </button>
+            
+                <button type='button'class="col-lg-offset-2 col-lg-4  col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-offset-2 col-xs-4 bouton" id="next9"> Next </button>
+        </div>
+
+  </div>
+
+
+<div id="question10" style="display:none;">
+      <h3>Question10:</h3>
+       <form name="quizz"> 
+         <p>La capitale de la France?</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button'class="bonne">Paris</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Rennes</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Lyon</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                     <button type='button' class="mauvaise">Nice</button>
+                </div>
+                 
+              </div>
+       </form>
+
+        <div class="row">
+                <button type='button' class="col-lg-offset-4 col-lg-4 col-md-offset-4 col-md-4 col-sm-offset-4 col-sm-4 col-xs-offset-4 col-xs-4 bouton"  id="pre9"> Previous </button>
+        </div>
+
+  </div>
+
+
+ <script type="text/javascript" src="js/script.js"  >
+ </script>
+
+
+</body>
+</html>
