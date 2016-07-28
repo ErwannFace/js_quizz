@@ -1,0 +1,55 @@
+.secondary {
+	text-align: left !important;
+}
+.answer {
+	margin-bottom: 0 !important;
+}
+.marg-bot {
+	margin-bottom: 20px;
+}
+.marg-top{
+	margin-top: 20px;
+}
+.radius {
+	border-radius: 5px;
+	font-weight: bold;
+}
+.button.hollow.secondary {
+	color: #000 !important;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.3) !important;
+	border-color: #f2f2f2 !important;
+}
+p {
+	color: #f4f4f4;
+}
+div.large-3.medium-3.columns {
+	padding: 0 !important;
+}
+.bx-wrapper .bx-viewport {
+	width: auto;
+	margin: 0 auto;
+	left: 0 !important;
+	border: none !important;
+	color: #f4f4f4;
+	text-shadow: 1px 1px 0 rgba(0,0,0,.6);
+	/*background: url('../img/clouds.jpg') !important;*/
+	background: transparent !important;
+	bottom: 225px;
+	position: absolute;
+}
+#particle {
+	position: relative;
+	overflow: hidden;
+	height: 225px;
+	background: #33bbff;
+}
+.bx-controls-direction {
+	display: none;
+}
+.count {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	width: 150px;
+}
