@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS Quizz Master - Challenge 6</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Qui veux gagner des lamas ?</h1>
+
+        <h2>Question</h2>
+
+        <div id="Q1">
+            <p>Question 1/10 - Les lamas, c'est super gentil !</p>
+
+            <table class="table table-bordered">
+                <tr>
+                    <td class="ans-good">A - Non, il crache sur les gens.</td>
+                    <td class="ans-bad">B - Cela dépend des jours.</td>
+                </tr>
+                <tr>
+                    <td class="ans-bad">C - Que quand la lune est pleine.</td>
+                    <td class="ans-bad">D - Sont tous trop sympa !</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="Q2" style="display:none">
+            <p>Question 2/10 - Les lamas, sont végétariens.</p>
+
+            <table class="table table-bordered">
+                <tr>
+                    <td class="ans-bad">A - Faux ! Ils mangent des cailloux !</td>
+                    <td class="ans-bad">B - Un peu !</td>
+                </tr>
+                <tr>
+                    <td class="ans-good">C - Ils sont vegans, c'est vachement hipe un lamas.</td>
+                    <td class="ans-bad">D - On s'en fous !</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="Q3" style="display:none">
+            <p>Question 3/10 - Les lamas, lise le journal...</p>
+
+            <table class="table table-bordered">
+                <tr>
+                    <td class="ans-bad">A - Et même la télé !</td>
+                    <td class="ans-bad">B - Non mais sérieux on s'en fous...</td>
+                </tr>
+                <tr>
+                    <td class="ans-good">C - Seulement si ça parle de rugby.</td>
+                    <td class="ans-bad">D - Ils les mangent.</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="Q4" style="display:none">
+            <p>Question 4/10 - Les lamas, sont les formateurs de nos formateurs !</p>
+
+            <table class="table table-bordered">
+                <tr>
+                    <td class="ans-good">A - "Pourquoi je corrige ce mec déjà... ???"</td>
+                    <td class="ans-good">B - Peut être.</td>
+                </tr>
+                <tr>
+                    <td class="ans-good">C - Assurement.</td>
+                    <td class="ans-good">D - Je suis la bonne réponse moi aussi en fait.</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="Q5" style="display:none">
+            <p>Question 5/10 - Les lamas, sont pleins d'idées.</p>
+
+            <table class="table table-bordered">
+                <tr>
+                    <td class="ans-bad">A - Hein ?</td>
+                    <td class="ans-bad">B - Comprend pas...</td>
+                </tr>
+                <tr>
+                    <td class="ans-good">C - Ceux sont des génis</td>
+                    <td class="ans-bad">D - Non mais t'as vu leur tête. . .</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="Q6" style="display:none">
+            <p>Question 6/10 - Les lamas, ont la classe</p>
+
+            <table class="table table-bordered">
+                <tr>
+                    <td class="ans-bad">A - ILS CONFONDENT CLASSE ET COQUETERIE ! ! !</td>
+                    <td class="ans-good">B - Ils se fringuent chez Yohji Yamamoto</td>
+                </tr>
+                <tr>
+                    <td class="ans-good">C - La bonne réponse c'est la B.</td>
+                    <td class="ans-bad">D - La bonne réponse c'est la A.</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="Q7" style="display:none">
+            <p>Question 7/10 - Les lamas, sont accros aux carnichons.</p>
+
+            <table class="table table-bordered">
+                <tr>
+                    <td class="ans-good">A - Oui parce que c'est vert.</td>
+                    <td class="ans-bad">B - C'est a leur goût.</td>
+                </tr>
+                <tr>
+                    <td class="ans-bad">C - Certains en meurt !</td>
+                    <td class="ans-bad">D - Jamais un lama n'a mangé de cornichons.</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="Q8" style="display:none">
+            <p>Question 8/10 - Les lamas, c'est super gentil !</p>
+
+            <table class="table table-bordered">
+                <tr>
+                    <td class="ans-good">A - On a pas déjà posé la question ?</td>
+                    <td class="ans-bad">B - Hmmm...</td>
+                </tr>
+                <tr>
+                    <td class="ans-bad">C - Je sais pas.</td>
+                    <td class="ans-bad">D - "Je sais pas" c'est pas une réponse !</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="Q9" style="display:none">
+            <p>Question 9/10 - Les lamas, savent mieux coder que toi.</p>
+
+            <table class="table table-bordered">
+                <tr>
+                    <td class="ans-bad">A - NOP.</td>
+                    <td class="ans-good">B - Cela dépend de qui tu es.</td>
+                </tr>
+                <tr>
+                    <td class="ans-bad">C - Les pattes de chamau, c'est pas pratique.</td>
+                    <td class="ans-bad">D - Et puis c'est pas sexy.</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="Q10" style="display:none">
+            <p>Question 10/10 - Les lamas, ont lu toutes les questions et réponses de ce quizz.</p>
+
+            <table class="table table-bordered">
+                <tr>
+                    <td class="ans-bad">A - Un lama ne sait pas lire.</td>
+                    <td class="ans-bad">B - Question piège ?</td>
+                </tr>
+                <tr>
+                    <td class="ans-bad">C - Ouais peut être...</td>
+                    <td class="ans-good">D - Tout à fait. C'est ce qui les caractérisent.</td>
+                </tr>
+            </table>
+        </div>
+        
+        <div id="Q11" style="display:none">
+            <p>Ton score est de <i id="score"></i>/<i id="scoreTotal"></i> !</p>
+        </div>
+        <!--
+        <div>
+            <button id="last" type="button" class="btn btn-primary col-xs-12 col-sm-5 col-md-4">Previous</button>
+            <button id="next" type="button" class="btn btn-primary pull-right col-xs-12 col-sm-5 col-sm-offset-1 col-md-4 col-md-offset-4">Next</button>
+        </div>
+        -->
+    </div>
+</body>
+
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/questions.js"></script>
+
+</html>
