@@ -1,0 +1,46 @@
+/* commmentaires */
+/* color: #1B1BB3/#FF9200/#FFE800; */
+/* font-family: 'Irish Grover'; font-family: 'Nothing You Could Do'; */
+
+body {
+    margin: 0;
+    background-color: #CCCCCC !important;
+}
+
+h1 {
+    font-family: 'Irish Grover', 'cursive' !important;
+    text-align: center;
+    font-weight: bold;
+    border-bottom : 1px solid #000;
+    padding-bottom: 1vh;
+}
+h4 {
+    text-decoration: underline;
+    font-family: 'Nothing You Could Do', 'cursive'!important;
+    background-color: #FFE800;
+    padding: 1vh;
+}
+.questions {
+    color: #1B1BB3;
+    font-family: 'Irish Grover', 'cursive' !important;  
+    text-align: center;
+    font-size: 3vh;
+}
+.reponse {
+    font-family: 'Nothing You Could Do', 'cursive'!important;
+    font-weight: bold;
+    font-size: 2vh;
+    background-color: white;
+    border: 3px solid darkblue;
+    padding: 1vh 2vh;
+} 
+button {
+    margin: 1vh 0 !important;
+    padding: 1vh 5vh;
+    background-color: mediumblue;
+    color: white !important;
+    border-radius: 1vh;
+}
+.score {
+    margin: 2vh 0 !important;
+}
