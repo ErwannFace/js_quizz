@@ -1,0 +1,56 @@
+.nopad {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+.boite-bottom {
+    padding: 20px 0 20px 0;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.boite {
+    padding: 20px 0 20px 0;
+    border: 1px solid grey;
+}
+
+.boite-right {
+    border-right: none !important;
+}
+
+.btn-lg {
+    width: 100%;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.green {
+    background-color: #B3EB7A;
+}
+
+.faux {
+    background-color: #FF6666;
+}
+
+.none {
+    background-color: orange;
+}
+
+.bx-wrapper .bx-viewport {
+    box-shadow: none;
+}
+.bx-controls-direction{
+    display:none;
+}
+
+.btn:hover,.btn:focus, .btn:active {
+    text-decoration: none;
+    outline: 0;
+}
+.padding {
+    margin-left: 50px;
+}
