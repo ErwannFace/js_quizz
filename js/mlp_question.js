@@ -58,3 +58,4 @@ var qst10 = ["De quelle espèce est Gilda ?",
 						"Unicorn",
 						"Griffon",
 						4];
+var all_qst = [qst1, qst2, qst3, qst4, qst5, qst6, qst7, qst8, qst9, qst10];
