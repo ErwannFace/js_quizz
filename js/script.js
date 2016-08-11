@@ -1,4 +1,7 @@
 var index = 0;
+var answers = [];
+answers.length = all_qst.length;
+
 
 /* /Display functions\ */
 display_qst(all_qst[index]);
@@ -9,20 +12,19 @@ function display_qst(question) {
 	$("tr:first td:last").html(question[2]);
 	$("tr:last td:first").html(question[3]);
 	$("tr:last td:last").html(question[4]);
+	$("td").css("background-color", "transparent");
+	
 }
-
 $("button:first").click(function previous_qst() {
 	if (index != 0) {
 		index--;
 		display_qst(all_qst[index]);
 	}
 });
-
 $("button:last").click(function next_qst() {
-	if (index < all_qst.length-1) {
+	if (index < all_qst.length - 1) {
 		index++;
 		display_qst(all_qst[index]);
-		$("td").css("background-color", "transparent");
 	}
 });
 /* \Display functions/ */
@@ -34,7 +36,12 @@ $("td").click(function check_answer() {
 	var right_answer_index = current_question[5];
 	var right_answer = current_question[right_answer_index];
 	var user_answer = $(this).html();
-	
 	this.style.background = (right_answer == user_answer) ? "green" : "red";
+	store_answer(this);
 });
 
+
+function store_answer(target) {
+	answers[index] = $(target).html();
+	console.log(answers);
+}
