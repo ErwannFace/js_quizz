@@ -22,7 +22,7 @@ function display_qst(question) {
 	$("tr:last td:first").html(question[3]);
 	$("tr:last td:last").html(question[4]);
 	$("td").css("background-color", "transparent");
-	$("p:first").html(index+1 + "/10");
+	$("p:first").html(index+1 + "/" + all_qst.length);
 	$("p:last").html("Score: " + score);
 	
 	check_answer();
