@@ -12,8 +12,13 @@ div {
 }
 
 .button {
-	margin: auto;
+	margin: 20px auto;
 	width: 30%;
 	display: flex;
 	justify-content: space-around;
+}
+
+p {
+	display: inline;
+	margin: 20px;
 }
