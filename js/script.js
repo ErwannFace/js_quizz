@@ -1,6 +1,7 @@
 var index = 0;
 var answers = [];
 answers.length = all_qst.length;
+var score = 0;
 
 /* /Display functions\ */
 display_qst(all_qst[index]);
@@ -36,7 +37,7 @@ $("td").click(function () {
 	store_answer(this);
 	check_answer();
 	if (answers_full()) {
-		set_score();
+		display_score();
 	}
 });
 
@@ -45,6 +46,7 @@ function store_answer(target) {
 	if (!answers[index]) {
 		answers[index] = $(target).html();
 		console.log(answers);
+		set_score();
 	}
 }
 
@@ -60,14 +62,17 @@ function check_answer() {
 			//Compare the user answer with the right answer,
 			//Color the background green is is answer is correct...
 			if (user_answer == right_answer) {
-				$(x).css("background-color", "green");	
+				$(x).css("background-color", "#5CB85C");	
 			}
 			//...Or red if not
 			else {
-				$(x).css("background-color", "red");	
+				$(x).css("background-color", "#D9534F");	
 			}
 		}
 	}
+}
+
+function set_background() {
 }
 
 function answers_full() {
@@ -80,5 +85,15 @@ function answers_full() {
 }
 
 function set_score() {
-	alert("score");
+	var current_question = all_qst[index];
+	var right_answer_index = current_question[5]; //returns integer
+	var right_answer = current_question[right_answer_index];
+	var user_answer = answers[index];
+	if (right_answer == user_answer) {
+		score++;
+	}
+}
+
+function display_score() {
+	alert(score + "/10");
 }
