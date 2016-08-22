@@ -9,6 +9,7 @@ var right_answer;
 var user_answer;
 
 /* /Display functions\ */
+$("h1").html(title);
 display_qst(all_qst[index]);
 
 function display_qst(question) {

@@ -1,3 +1,5 @@
+var title = "Ponyquizz";
+
 var qst1 = ["Qui est la petite soeur de Rarity ?",
 						"Applejack",
 						"Scootaloo",

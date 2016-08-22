@@ -1,3 +1,5 @@
+var title = "Quizz"
+
 var question1 = ["En quelle année sera découverte la planète Gong ?",
 								 "2032",
 								 "2042",
