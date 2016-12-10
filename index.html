@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" author="Stéphane">
+    <title>Js_Quizz</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome.css">
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+
+</head>
+
+<body>
+    <div class="col-md-10 col-md-offset-1 text-center">
+        <h1>Le Quizz de Stéphane</h1>
+    </div>
+
+    
+    <article id="question1">
+        <div class="row">
+            <div class="faux col-md-offset-1 col-md-10">
+                <h3>Question 1</h3>
+                <h5>Qui a gagné le Championnat de France de football en 1970 ?</h5>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Paris </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default good Reponse"> Saint-Etienne </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> Rennes </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Bordeaux </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-6 col-md-offset-7 col-sm-offset-7 col-xs-offset-2">
+            <button id="question1" onclick="questionSuivante1()" class="btn btn-primary"> Suivant </button>
+        </div>
+    </article>
+    <article id="question2" class="none">
+        <div class="row">
+            <div class="faux col-md-offset-1 col-md-10">
+                <h3>Question 2</h3>
+                <h5>Comment est également appelée la "Transat Jacques Vabre" ?</h5>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Route du rhum </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> Vendée Globe </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default good Reponse"> Route du café </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Trophée du rhum </button>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente2()">Précédente</button>
+        <div class="col-md-3 col-sm-3 col-xs-6 col-md-offset-2 col-sm-offset-2 ">
+            <button id="question1" onclick="questionSuivante2()" class="btn btn-primary"> Suivant </button>
+        </div>
+    </article>
+    <article id="question3" class="none">
+        <div class="row">
+            <div class="faux col-md-offset-1 col-md-10">
+                <h3>Question 3</h3>
+                <h5>A quel groupe musical international doit-on la bande originale du film "Flash Gordon" ?</h5>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse">Led Zeppelin </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default good Reponse"> Queen </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> Yes </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> The Doors </button>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente3()">Précédente</button>
+        <div class="col-md-3 col-sm-3 col-xs-6 col-md-offset-2 col-sm-offset-2">
+            <button id="question1" onclick="questionSuivante3()" class="btn btn-primary"> Suivant </button>
+        </div>
+    </article>
+    <article id="question4" class="none">
+        <div class="row">
+            <div class="faux col-md-offset-1 col-md-10">
+                <h3>Question 4</h3>
+                <h5>A quelle classe animale le scorpion appartient-il ?</h5>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Aux mammifères </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> Aux reptiles </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> Aux insectes </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default good Reponse"> Aux arachnides </button>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente4()">Précédente</button>
+        <div class="col-md-3 col-sm-3 col-xs-6 col-md-offset-2 col-sm-offset-2 ">
+            <button id="question1" onclick="questionSuivante4()" class="btn btn-primary"> Suivant </button>
+        </div>
+    </article>
+    <article id="question5" class="none">
+        <div class="row">
+            <div class="faux col-md-offset-1 col-md-10">
+                <h3>Question 5</h3>
+                <h5>Quelle est la race du chien de Colombo ?</h5>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Beagle </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default good Reponse"> Basset </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> Barbet </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Bichon </button>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente5()">Précédente</button>
+        <div class="col-md-3 col-sm-3 col-xs-6 col-md-offset-2 col-sm-offset-2">
+            <button id="question1" onclick="questionSuivante5()" class="btn btn-primary"> Suivant </button>
+        </div>
+    </article>
+    <article id="question6" class="none">
+        <div class="row">
+            <div class="faux col-md-offset-1 col-md-10">
+                <h3>Question 6</h3>
+                <h5>Comment appelle-t-on le versant de la montagne non situé au soleil ?</h5>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Adret </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> Etant </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default good Reponse"> Ubac </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse">  Ressac </button>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente6()">Précédente</button>
+        <div class="col-md-3 col-sm-3 col-xs-6 col-md-offset-2 col-sm-offset-2 ">
+            <button id="question1" onclick="questionSuivante6()" class="btn btn-primary"> Suivant </button>
+        </div>
+    </article>
+    <article id="question7" class="none">
+        <div class="row">
+            <div class="faux col-md-offset-1 col-md-10">
+                <h3>Question 7</h3>
+                <h5> Quel roman George Orwell a-t-il écrit en 1948 ?</h5>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default good Reponse"> 1984 </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> 2001 </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> 2010 </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> 1948 </button>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente7()">Précédente</button>
+        <div class="col-md-3 col-sm-3 col-xs-6 col-md-offset-2 col-sm-offset-2">
+            <button id="question1" onclick="questionSuivante7()" class="btn btn-primary"> Suivant </button>
+        </div>
+    </article>
+    <article id="question8" class="none">
+        <div class="row">
+            <div class="faux col-md-offset-1 col-md-10">
+                <h3>Question 8</h3>
+                <h5>Avec quoi mesure-t-on la profondeur des océans ?</h5>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Un sextant </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> Un radar </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default good Reponse"> Un sonar </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Un compteur Geiger </button>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-5" onclick="questionPrecedente8()">Précédente</button>
+        <div class="col-md-3 col-sm-3 col-xs-6 col-md-offset-2 col-sm-offset-2">
+            <button id="question1" onclick="questionSuivante8()" class="btn btn-primary"> Suivant </button>
+        </div>
+    </article>
+    <article id="question9" class="none">
+        <div class="row">
+            <div class="faux col-md-offset-1 col-md-10">
+                <h3>Question 9</h3>
+                <h5>Quel os du squelette humain est le plus long et le plus solide ?</h5>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Le radius </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> Le carpe </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default good Reponse"> Le fémur </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Le cubitus </button>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-6" onclick="questionPrecedente9()">Précédente</button>
+        <div class="col-md-3 col-sm-3 col-xs-6 col-md-offset-2 col-sm-offset-2">
+            <button id="question9" onclick="questionSuivante9()" class="btn btn-primary"> Suivant </button>
+        </div>
+    </article>
+    <article id="question10" class="none">
+        <div class="row">
+            <div class="faux col-md-offset-1 col-md-10">
+                <h3>Question 10</h3>
+                <h5>Quel arbre est connu pour être le plus grand au monde ?</h5>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Le chêne </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default false Reponse"> Le pin </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class=" btn btn-default good Reponse"> Le séquoia </button>
+                </div>
+                <div class=" col-md-6 col-sm-6 col-xs-6 nopadding">
+                    <button class="btn btn-default false Reponse"> Le hêtre </button>
+                </div>
+
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-8" onclick="questionPrecedente10()">Précédente</button>
+    </article>
+    <div class="col-md-2 col-md-offset-10 col-sm-5 col-sm-offset-7 col-xs-11 col-xs-offset-1 Felicitations">
+    </div>    
+    </div>
+
+
+
+</body>
+
+</html>
