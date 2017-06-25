@@ -1,0 +1,10 @@
+td {
+	box-shadow: 2px 2px 4px lime;
+	border: 2px solid black;
+}
+tr {
+	box-shadow: 2px 2px 4px red;
+	border : 1px solid green;
+}
+
+table {box-shadow: 2px 2px 4px black;}
